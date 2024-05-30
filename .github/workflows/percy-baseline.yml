@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "templates/docs/examples/**"
+      - "scss/**"
 
 jobs:
   snapshot:
