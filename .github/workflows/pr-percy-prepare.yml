@@ -10,15 +10,14 @@ on:
     types:
       - opened
       - reopened
+      - ready_for_review
       - synchronize
-      # uncomment when ready to ignore running Percy on draft PRs
-      # - ready_for_review
+      - labeled
 
 jobs:
   copy_artifact:
     name: Copy changed files to GHA artifact
-    # uncomment when ready to ignore running Percy on draft PRs
-    # if: "!github.event.pull_request.draft"
+    if: "!github.event.pull_request.draft || github.event.label.name == vars.PERCY_TEST_REQUESTED_LABEL_NAME"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
