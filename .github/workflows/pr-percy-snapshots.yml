@@ -77,7 +77,7 @@ jobs:
     - name: Check for existence of Percy test requested label
       id: label_exists
       run: |
-        label_exists=$(echo '${{ steps.get_pr_labels.outputs.data }}' | jq '[.[] | select(.name == "'${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }}'")] | length')
+        label_exists=$(echo ${{ steps.get_pr_labels.outputs.data }} | jq '[.[] | select(.name == "${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }}")] | length')
         echo "label_exists=$label_exists" >> $GITHUB_ENV
 
     - name: URL-encode label data for API request
