@@ -48,7 +48,6 @@ jobs:
           set -e
           echo "sha=$(cat pr_head_sha.txt)" >> $GITHUB_OUTPUT
           echo "pr_number=$(cat pr_num.txt)" >> $GITHUB_OUTPUT
-          exit 1
 
       - name: Take snapshots & upload to Percy
         id: percy_snapshot
