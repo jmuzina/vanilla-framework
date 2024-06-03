@@ -81,7 +81,7 @@ jobs:
         echo "label_exists=$label_exists" >> $GITHUB_ENV
 
     - name: URL-encode label data for API request
-      if: env.label_exists == '1'
+      if: steps.label_exists.outputs.label_exists==1
       id: url_encode
       run: |
         set -e
@@ -89,7 +89,7 @@ jobs:
         echo "test_requested_label_name=$test_requested_label_name" >> $GITHUB_ENV
             
     - name: Remove ${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }} label
-      if: steps.label_exists.outputs.label_exists
+      if: steps.label_exists.outputs.label_exists==1
       uses: octokit/request-action@v2.x
       with:
         route: "DELETE /repos/${{ github.repository }}/issues/${{ needs.upload.outputs.pr_number }}/labels/${{ steps.url_encode.outputs.test_requested_label_name }}"
