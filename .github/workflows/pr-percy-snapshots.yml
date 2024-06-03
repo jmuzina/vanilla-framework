@@ -66,7 +66,24 @@ jobs:
     if: ${{ needs.upload.outputs.pr_number != '' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Get labels on the PR
+        id: get_pr_labels
+        uses: octokit/request-action@v2.x
+        with:
+          route: "GET /repos/${{ github.repository }}/issues/${{ needs.upload.outputs.pr_number }}/labels"
+          owner: octokit
+          repo: request-action
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for existence of Percy test requested label
+        id: label_exists
+        run: |
+          label_exists=$(echo ${{ steps.get_pr_labels.outputs.data }} | jq '[.[] | select(.name == "${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }}")] | length')
+          echo "label_exists=$label_exists" >> $GITHUB_OUTPUT
+        
       - name: URL-encode label data for API request
+        if: steps.label_exists.outputs.label_exists
         id: url_encode
         run: |
           set -e
@@ -74,6 +91,7 @@ jobs:
           echo "test_requested_label_name=$test_requested_label_name" >> $GITHUB_OUTPUT
           
       - name: Remove ${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }} label
+        if: steps.label_exists.outputs.label_exists
         uses: octokit/request-action@v2.x
         with:
           route: "DELETE /repos/${{ github.repository }}/issues/${{ needs.upload.outputs.pr_number }}/labels/${{ steps.url_encode.outputs.test_requested_label_name }}"

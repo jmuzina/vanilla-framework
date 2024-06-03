@@ -17,7 +17,7 @@ on:
 jobs:
   copy_artifact:
     name: Copy changed files to GHA artifact
-    if: "!github.event.pull_request.draft || github.event.label.name == vars.PERCY_TEST_REQUESTED_LABEL_NAME"
+    if: "!github.event.pull_request.draft || (github.event.pull_request.draft && github.event.label.name == vars.PERCY_TEST_REQUESTED_LABEL_NAME)"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
