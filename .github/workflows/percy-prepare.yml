@@ -14,22 +14,6 @@ on:
         type: string
 
 jobs:
-  print_env:
-    name: Report environment
-    runs-on: ubuntu-latest
-    steps:
-      - name: Report GHA event name
-        id: report_gha_event
-        run: |
-          echo "GHA event name: ${{ github.event_name }}"
-          echo "GHA event action: ${{ github.event.action }}"
-          echo "PR labels: ${{ github.event.pull_request.labels }}"
-          echo "::set-output name=gha_event::${{ toJson(github.event) }}"
-      - name: Report GHA event
-        run: |
-          echo "GHA event: ${{ steps.report_gha_event.outputs.gha_event }}"
-
-
   copy_artifact:
     name: Copy changed files to GHA artifact
     runs-on: ubuntu-latest
