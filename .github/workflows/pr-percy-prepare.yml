@@ -15,9 +15,25 @@ on:
       - labeled
 
 jobs:
+  print_env:
+    name: Report environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report GHA event name
+        id: report_gha_event
+        run: |
+          echo "GHA event name: ${{ github.event_name }}"
+          echo "GHA event action: ${{ github.event.action }}"
+          echo "PR labels: ${{ github.event.pull_request.labels }}"
+          echo "::set-output name=gha_event::${{ toJson(github.event) }}"
+      - name: Report GHA event
+        run: |
+          echo "GHA event: ${{ steps.report_gha_event.outputs.gha_event }}"
+
+
   copy_artifact:
     name: Copy changed files to GHA artifact
-    if: "(!github.event.pull_request.draft && !contains(github.event.pull_request.labels.*.name, '${{vars.PERCY_TEST_REQUESTED_LABEL_NAME}}'))  || (github.event.pull_request.draft && contains(github.event.pull_request.labels.*.name, '${{vars.PERCY_TEST_REQUESTED_LABEL_NAME}}'))"
+    if: "!github.event.pull_request.draft || contains(github.event.pull_request.labels.*.name, vars.PERCY_TEST_REQUESTED_LABEL_NAME)"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
