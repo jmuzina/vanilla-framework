@@ -48,7 +48,6 @@ jobs:
           set -e
           echo "sha=$(cat pr_head_sha.txt)" >> $GITHUB_OUTPUT
           echo "pr_number=$(cat pr_num.txt)" >> $GITHUB_OUTPUT
-          exit 1
 
       - name: Take snapshots & upload to Percy
         id: percy_snapshot
@@ -58,46 +57,6 @@ jobs:
           pr_number: ${{ steps.get_pr_data.outputs.pr_number }}
           commitsh: ${{ steps.get_pr_data.outputs.sha }}
           percy_token_write: ${{ secrets.PERCY_TOKEN_WRITE }}
-
-  remove_percy_label:
-    name: Remove Percy test requested label
-    needs: upload
-    # Run on success or failure; that way if the build fails for some reason the label is still removed
-    # This works as long as the get_pr_data step has succeeded, as it needs the PR number. 
-    if: ${{ failure() || needs.upload.outputs.pr_number != '' }}
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: Check for existence of Percy test requested label
-      id: label_exists
-      run: |
-        set -e
-        resp=$(curl -L \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-          -H "X-GitHub-Api-Version: 2022-11-28" \
-          https://api.github.com/repos/${{ github.repository }}/issues/${{ needs.upload.outputs.pr_number }}/labels
-        )
-        label_count=$(echo $resp | jq '[.[] | select(.name == "${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }}")] | length')
-        echo "label_count=$label_count" >> $GITHUB_OUTPUT
-
-    - name: URL-encode label data for API request
-      if: steps.label_exists.outputs.label_count==1
-      id: url_encode
-      run: |
-        set -e
-        test_requested_label_name=$(echo -n "${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }}" | jq -s -R -r @uri)
-        echo "test_requested_label_name=$test_requested_label_name" >> $GITHUB_OUTPUT
-            
-    - name: Remove ${{ vars.PERCY_TEST_REQUESTED_LABEL_NAME }} label
-      if: steps.label_exists.outputs.label_count==1
-      uses: octokit/request-action@v2.x
-      with:
-        route: "DELETE /repos/${{ github.repository }}/issues/${{ needs.upload.outputs.pr_number }}/labels/${{ steps.url_encode.outputs.test_requested_label_name }}"
-        owner: octokit
-        repo: request-action
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Add a check to the PR to show that screenshots were sent to Percy
   # Manual status check to be removed once IS-GHA integration is complete
