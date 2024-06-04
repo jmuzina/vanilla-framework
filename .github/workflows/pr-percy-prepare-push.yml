@@ -11,6 +11,7 @@ on:
       - opened
       - ready_for_review
       - synchronize
+      - reopened
 
 jobs:
   copy_artifact:
