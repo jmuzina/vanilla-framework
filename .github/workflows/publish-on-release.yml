@@ -1,66 +1,34 @@
-name: Publish Vanilla release
+name: Release Drafter
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
-    name: Build Vanilla
+  update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
         with:
-          node-version: 18
-      - name: Read Vanilla version from package.json
+          # Only need package.json as it is used by the get_version step to pass tag number into release-drafter
+          sparse-checkout: package.json
+
+      - name: Get version number from package.json
+        id: get_version
+        shell: bash
         run: |
-          node -p "require('./package.json').version" > VANILLA_VERSION
-          echo "Building Vanilla v$(cat VANILLA_VERSION)"
-      - run: yarn install
-      - run: yarn build
-      - run: yarn test
-      - name: Show size of the build file
-        run: stat -c '%s' build/css/build.css
-      - run: cp VANILLA_VERSION build/css
-      - uses: actions/upload-artifact@v4
-        with:
-          name: css
-          path: build/css
+          set -e
+          echo "version_number=$(jq -r '.version' package.json)" >> $GITHUB_OUTPUT
 
-  publish-npm:
-    name: Publish to NPM
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Draft release notes for v${{ steps.get_version.outputs.version_number }}
+        uses: release-drafter/release-drafter@v6
         with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - if: ${{ !github.event.release.prerelease }}
-        run: npm publish
+          # Setting tag and name override the name-template and tag-template.
+          # See https://github.com/release-drafter/release-drafter?tab=readme-ov-file#action-inputs for more
+         tag: v${{ steps.get_version.outputs.version_number }}
+         name: v${{ steps.get_version.outputs.version_number }}
+         commitish: main
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-      - if: ${{ github.event.release.prerelease }}
-        run: npm publish --tag next
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
-  publish-assets:
-    name: Publish to assets server
-    if: ${{ !github.event.release.prerelease }}
-    needs: [build, publish-npm]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          name: css
-          path: css
-      - name: Install upload-assets snap
-        run: sudo snap install upload-assets
-      - name: Upload to assets server
-        run: upload-assets --url-path vanilla-framework-version-$(cat css/VANILLA_VERSION).min.css css/build.css
-        env:
-          UPLOAD_ASSETS_API_TOKEN: ${{secrets.UPLOAD_ASSETS_API_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
