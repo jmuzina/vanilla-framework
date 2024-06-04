@@ -7,7 +7,6 @@ on:
       - main
     types:
         # workflow runs after a label is added to the PR, or when a commit is added to a PR with the Percy label
-      - opened
       - labeled
       - synchronize
 

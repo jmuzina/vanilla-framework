@@ -9,7 +9,6 @@ on:
       - "scss/**"
     types:
       - opened
-      - reopened
       - ready_for_review
       - synchronize
 
