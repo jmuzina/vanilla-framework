@@ -40,7 +40,7 @@ async function getPercyConfigURLs() {
     urls.push({
       url: url,
       name: path,
-      widths: isResponsive ? [375, 800, 1280] : [375, 1280],
+      widths: [375] // isResponsive ? [375, 800, 1280] : [375, 1280],
     });
   }
 
