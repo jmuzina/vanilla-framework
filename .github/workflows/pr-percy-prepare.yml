@@ -20,8 +20,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Report GHA event name
-        run: echo ${{ github.event_name }}
-        
+        run: |
+          echo "GHA event name: ${{ github.event_name }}"
+          echo "GHA event action: ${{ github.event.action }}"
+          echo "PR labels: ${{ github.event.pull_request.labels }}"
+          echo ${{ github.event }}
+
+
   copy_artifact:
     name: Copy changed files to GHA artifact
     if: "!github.event.pull_request.draft || contains(github.event.pull_request.labels.*.name, vars.PERCY_TEST_REQUESTED_LABEL_NAME)"
