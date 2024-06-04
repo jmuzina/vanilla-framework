@@ -24,7 +24,7 @@ jobs:
           echo "GHA event name: ${{ github.event_name }}"
           echo "GHA event action: ${{ github.event.action }}"
           echo "PR labels: ${{ github.event.pull_request.labels }}"
-          echo ${{ github.event }}
+          echo ${{ toJson(github.event) }}
 
 
   copy_artifact:
