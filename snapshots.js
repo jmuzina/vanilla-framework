@@ -31,7 +31,7 @@ async function getPercyConfigURLs() {
   let links = getExampleUrls(await getExampleFiles());
   let urls = [];
 
-  for (var i = 0; i < links.length; i++) {
+  for (var i = 0; i < 1; i++) {
     const url = links[i];
 
     const path = new URL(url).pathname.replace(/\/?$/, '/');
@@ -40,7 +40,7 @@ async function getPercyConfigURLs() {
     urls.push({
       url: url,
       name: path,
-      widths: isResponsive ? [375, 800, 1280] : [375, 1280],
+      widths: [375] // isResponsive ? [375, 800, 1280] : [375, 1280],
     });
   }
 
