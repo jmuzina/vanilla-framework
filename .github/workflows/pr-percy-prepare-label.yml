@@ -8,6 +8,7 @@ on:
     types:
         # workflow runs after a label is added to the PR, or when a commit is added to a PR with the Percy label
       - labeled
+      - ready_for_review
       - synchronize
 
 jobs:
