@@ -1,4 +1,5 @@
 # This workflow ensures Percy is executed against PRs with the Percy required label, regardless of which paths were changed
+# test comment
 name: "Prepare Percy build on Percy - labeled"
 
 on:
