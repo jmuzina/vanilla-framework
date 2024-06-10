@@ -10,15 +10,11 @@ Vanilla gives you multiple ways to display code using the standard HTML elements
 
 When you refer to code inline with other text, use the <code>&lt;code></code> tag.
 
-<div class="embedded-example"><a href="/docs/examples/base/code-inline/" class="js-example">
+<div class="embedded-example"><a href="/docs/examples/base/code/inline/" class="js-example">
 View example of inline code
 </a></div>
 
-An inline `code` element can be nested within a `.p-strip--dark` element, and can also use the `.is-dark` utility class as necessary:
-
-<div class="embedded-example"><a href="/docs/examples/base/code-inline-dark/" class="js-example">
-View example of inline code
-</a></div>
+An inline `code` element can be nested within a `.p-strip--dark` element, and can also use the `.is-dark` utility class as necessary.
 
 ## Block
 
@@ -29,10 +25,9 @@ To create a pre-formatted block, use either `<pre>` (where preserving white spac
 <div class="embedded-example"><a href="/docs/examples/base/pre/" class="js-example">
 View example of the base pre block
 </a></div>
-
 **Pre-formatted code block:**
 
-<div class="embedded-example"><a href="/docs/examples/base/code-block/" class="js-example">
+<div class="embedded-example"><a href="/docs/examples/base/code/block/" class="js-example">
 View example of the base code block
 </a></div>
 
