@@ -37,6 +37,11 @@ $color-focus: #2e96ff !default;
 $color-link-dark: #69c !default;
 $color-link-visited-dark: #a679d2 !default;
 
+// Tooltip colors; these do not change with theme
+$color-tooltip-background: #2e2e2e !default;
+$color-tooltip-link-default: #6699cc !default;
+$color-tooltip-link-visited: $color-link-visited-dark;
+
 // Focus modifications to meet AA 3:1 contrast ratio against
 // button background for positive/negative buttons
 $color-focus-positive: #003008 !default;
