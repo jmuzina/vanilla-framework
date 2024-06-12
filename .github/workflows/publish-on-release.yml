@@ -27,43 +27,6 @@ jobs:
         with:
           name: css
           path: build/css
-
-  publish-npm:
-    name: Publish to NPM
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - if: ${{ !github.event.release.prerelease }}
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-      - if: ${{ github.event.release.prerelease }}
-        run: npm publish --tag next
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
-  publish-assets:
-    name: Publish to assets server
-    if: ${{ !github.event.release.prerelease }}
-    needs: [build, publish-npm]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          name: css
-          path: css
-      - name: Install upload-assets snap
-        run: sudo snap install upload-assets
-      - name: Upload to assets server
-        run: upload-assets --url-path vanilla-framework-version-$(cat css/VANILLA_VERSION).min.css css/build.css
-        env:
-          UPLOAD_ASSETS_API_TOKEN: ${{secrets.UPLOAD_ASSETS_API_TOKEN}}
   
   notify-figma:
     name: Notify Figma library maintainers
@@ -80,4 +43,8 @@ jobs:
           echo "change_summary=$CHANGE_SUMMARY" >> $GITHUB_OUTPUT
       - name: Notify Figma library maintainers
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"source": "Vanilla CSS", "change-summary": "${{ steps.extract_release_notes.outputs.change_summary }}"}' ${{ secrets.FIGMA_LIBRARY_ALERT_URL }}
+          raw_payload='{"source": "Vanilla CSS", "change-summary": "${{ steps.extract_release_notes.outputs.change_summary }}"}'
+          echo "$raw_payload"
+          echo ${{ toJson(raw_payload) }}
+          payload=$(jq -n --arg source "Vanilla CSS" --arg change_summary "${{ steps.extract_release_notes.outputs.change_summary }}" '{source: $source, "change-summary": $change_summary}')
+          curl -X POST -H "Content-Type: application/json" -d "$payload" ${{ secrets.FIGMA_LIBRARY_ALERT_URL }}
