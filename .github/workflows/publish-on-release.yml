@@ -35,10 +35,13 @@ jobs:
       - name: Extract release notes sections
         id: extract_release_notes
         run: |
-          RELEASE_NOTES="${{ github.event.release.body }}"
-          FEATURES=$(echo "$RELEASE_NOTES" | sed -n '/## 🚀 Features/,/## /p' | sed '$d')
-          BUG_FIXES=$(echo "$RELEASE_NOTES" | sed -n '/## 🐛 Bug Fixes/,/## /p' | sed '$d')
-          MAINTENANCE=$(echo "$RELEASE_NOTES" | sed -n '/## 🔨 Maintenance/,/## /p' | sed '$d')
+          RELEASE_NOTES_SANITIZED=$(echo "${{ github.event.release.body }}" | jq -R . | jq -r .)
+          echo "SANITIZED: $RELEASE_NOTES_SANITIZED"
+#          RELEASE_NOTES_UNSAFE="${{ github.event.release.body }}"
+#          echo "UNSAFE: $RELEASE_NOTES_UNSAFE"
+          FEATURES=$(echo "$RELEASE_NOTES_SANITIZED" | sed -n '/## 🚀 Features/,/## /p' | sed '$d')
+          BUG_FIXES=$(echo "$RELEASE_NOTES_SANITIZED" | sed -n '/## 🐛 Bug Fixes/,/## /p' | sed '$d')
+          MAINTENANCE=$(echo "$RELEASE_NOTES_SANITIZED" | sed -n '/## 🔨 Maintenance/,/## /p' | sed '$d')
           CHANGE_SUMMARY="\n$FEATURES\n\n$BUG_FIXES\n\n$MAINTENANCE\n"
           echo "change_summary=$CHANGE_SUMMARY" >> $GITHUB_OUTPUT
       - name: Notify Figma library maintainers
