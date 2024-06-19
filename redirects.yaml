@@ -54,3 +54,5 @@
 /docs/utilities/visualise-font-metrics: /docs/utilities/font-metrics
 /docs/utilities/no-margin: /docs/utilities/margin-collapse
 /docs/utilities/no-padding: /docs/utilities/margin-collapse
+/docs/examples/patterns/notifications/notifications-dark: /docs/examples/patterns/notifications/notifications?theme=dark
+/docs/examples/patterns/notifications/variants-dark: /docs/examples/patterns/notifications/variants?theme=dark
