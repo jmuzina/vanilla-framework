@@ -54,3 +54,5 @@
 /docs/utilities/visualise-font-metrics: /docs/utilities/font-metrics
 /docs/utilities/no-margin: /docs/utilities/margin-collapse
 /docs/utilities/no-padding: /docs/utilities/margin-collapse
+/docs/examples/patterns/suru/dark: /docs/examples/patterns/suru/default?theme=dark
+/docs/examples/patterns/suru/50-50-dark: /docs/examples/patterns/suru/50-50?theme=dark
