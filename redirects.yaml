@@ -54,3 +54,5 @@
 /docs/utilities/visualise-font-metrics: /docs/utilities/font-metrics
 /docs/utilities/no-margin: /docs/utilities/margin-collapse
 /docs/utilities/no-padding: /docs/utilities/margin-collapse
+/docs/examples/patterns/lists/lists-mid-dot-dark: /docs/examples/patterns/lists/lists-mid-dot?theme=dark
+/docs/examples/patterns/lists/lists-stepped-dark: /docs/examples/patterns/lists/lists-stepped?theme=dark
