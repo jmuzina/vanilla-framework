@@ -54,3 +54,7 @@
 /docs/utilities/visualise-font-metrics: /docs/utilities/font-metrics
 /docs/utilities/no-margin: /docs/utilities/margin-collapse
 /docs/utilities/no-padding: /docs/utilities/margin-collapse
+/docs/examples/patterns/side-navigation/accordion-dark: /docs/examples/patterns/side-navigation/accordion?theme=dark
+/docs/examples/patterns/side-navigation/dark: /docs/examples/patterns/side-navigation/default?theme=dark
+/docs/examples/patterns/side-navigation/expandable-dark: /docs/examples/patterns/side-navigation/expandable?theme=dark
+/docs/examples/patterns/side-navigation/paper: /docs/examples/patterns/side-navigation/default?theme=paper
