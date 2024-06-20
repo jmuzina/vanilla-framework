@@ -76,3 +76,4 @@
 /docs/examples/base/sub: /docs/examples/base/typography/sub
 /docs/examples/base/sup: /docs/examples/base/typography/sup
 /docs/examples/base/variable-font: /docs/examples/base/typography/variable-font
+/docs/examples/patterns/buttons/dark: /docs/examples/patterns/buttons/default?theme=dark
