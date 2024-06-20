@@ -98,3 +98,7 @@
 /docs/examples/patterns/notifications/variants-dark: /docs/examples/patterns/notifications/variants?theme=dark
 /docs/examples/patterns/rule/dark: /docs/examples/patterns/rule/default?theme=dark
 /docs/examples/patterns/search-box/default-dark: /docs/examples/patterns/search-box/default?theme=dark
+/docs/examples/patterns/side-navigation/accordion-dark: /docs/examples/patterns/side-navigation/accordion?theme=dark
+/docs/examples/patterns/side-navigation/dark: /docs/examples/patterns/side-navigation/default?theme=dark
+/docs/examples/patterns/side-navigation/expandable-dark: /docs/examples/patterns/side-navigation/expandable?theme=dark
+/docs/examples/patterns/side-navigation/paper: /docs/examples/patterns/side-navigation/default?theme=paper
