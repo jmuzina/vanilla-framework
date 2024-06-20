@@ -88,3 +88,5 @@
 /docs/examples/patterns/icons/icons-light: /docs/examples/patterns/icons/standard?theme=light
 /docs/examples/patterns/icons/icons-dark: /docs/examples/patterns/icons/standard?theme=dark
 /docs/examples/patterns/links/links-dark: /docs/examples/patterns/links/default?theme=dark
+/docs/examples/patterns/lists/lists-mid-dot-dark: /docs/examples/patterns/lists/lists-mid-dot?theme=dark
+/docs/examples/patterns/lists/lists-stepped-dark: /docs/examples/patterns/lists/lists-stepped?theme=dark
