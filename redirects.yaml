@@ -83,3 +83,5 @@
 /docs/examples/patterns/code-snippet/icon-dark: /docs/examples/patterns/code-snippet/icon?theme=dark
 /docs/examples/patterns/contextual-menu/dark: /docs/examples/patterns/contextual-menu/default?theme=dark
 /docs/examples/patterns/divider/dark: /docs/examples/patterns/divider/default?theme=dark
+/docs/examples/patterns/forms/form-validation-dark: /docs/examples/patterns/forms/form-validation?theme=dark
+/docs/examples/patterns/forms/forms-dark: /docs/examples/patterns/forms/default?theme=dark
