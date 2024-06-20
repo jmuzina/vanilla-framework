@@ -92,3 +92,5 @@
 /docs/examples/patterns/lists/lists-stepped-dark: /docs/examples/patterns/lists/lists-stepped?theme=dark
 /docs/examples/patterns/logo-section/logo-section-dark: /docs/examples/patterns/logo-section/default?theme=dark
 /docs/examples/patterns/logo-section/logo-section: /docs/examples/patterns/logo-section/default
+/docs/examples/patterns/navigation/search-light: /docs/examples/patterns/navigation/search?theme=light
+/docs/examples/patterns/navigation/sliding-light: /docs/examples/patterns/navigation/sliding?theme=light

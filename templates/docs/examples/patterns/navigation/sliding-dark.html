@@ -106,13 +106,15 @@
   </div>
 </header>
 
-<script>
-  {% include 'docs/examples/patterns/navigation/_script-sliding.js' %}
-</script>
+{% if not is_combined %}
+  <script>
+    {% include 'docs/examples/patterns/navigation/_script-sliding.js' %}
+  </script>
+{% endif %}
 {% endblock %}
 
 {% block style %}
-  <style>
+<style>
     body { margin: 0; }
-  </style>
+</style>
 {% endblock %}
