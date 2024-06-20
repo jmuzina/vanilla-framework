@@ -104,3 +104,5 @@
 /docs/examples/patterns/side-navigation/paper: /docs/examples/patterns/side-navigation/default?theme=paper
 /docs/examples/patterns/suru/dark: /docs/examples/patterns/suru/default?theme=dark
 /docs/examples/patterns/suru/50-50-dark: /docs/examples/patterns/suru/50-50?theme=dark
+/docs/examples/patterns/tables/table-mobile-card-dark: /docs/examples/patterns/tables/table-mobile-card?theme=dark
+/docs/examples/patterns/tables/table-sortable-dark: /docs/examples/patterns/tables/table-sortable?theme=dark
