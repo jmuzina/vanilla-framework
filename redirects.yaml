@@ -94,3 +94,5 @@
 /docs/examples/patterns/logo-section/logo-section: /docs/examples/patterns/logo-section/default
 /docs/examples/patterns/navigation/search-light: /docs/examples/patterns/navigation/search?theme=light
 /docs/examples/patterns/navigation/sliding-light: /docs/examples/patterns/navigation/sliding?theme=light
+/docs/examples/patterns/notifications/notifications-dark: /docs/examples/patterns/notifications/notifications?theme=dark
+/docs/examples/patterns/notifications/variants-dark: /docs/examples/patterns/notifications/variants?theme=dark
