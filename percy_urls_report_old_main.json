@@ -1,0 +1,5839 @@
+{
+    "numSnapshots": 1466,
+    "urls": [
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/align-by-baseline",
+            "name": "/docs/examples/utilities/align-by-baseline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/baseline-grid",
+            "name": "/docs/examples/utilities/baseline-grid/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/clearfix",
+            "name": "/docs/examples/utilities/clearfix/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/embedded-media",
+            "name": "/docs/examples/utilities/embedded-media/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/equal-height",
+            "name": "/docs/examples/utilities/equal-height/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/fixed-width-container-nesting",
+            "name": "/docs/examples/utilities/fixed-width-container-nesting/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/fixed-width-container",
+            "name": "/docs/examples/utilities/fixed-width-container/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/font-metrics",
+            "name": "/docs/examples/utilities/font-metrics/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/hide-table-columns",
+            "name": "/docs/examples/utilities/hide-table-columns/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/hide",
+            "name": "/docs/examples/utilities/hide/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/margin-collapse",
+            "name": "/docs/examples/utilities/margin-collapse/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/max-width-unset",
+            "name": "/docs/examples/utilities/max-width-unset/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/muted-text",
+            "name": "/docs/examples/utilities/muted-text/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/no-print",
+            "name": "/docs/examples/utilities/no-print/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/off-screen",
+            "name": "/docs/examples/utilities/off-screen/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/padding-collapse",
+            "name": "/docs/examples/utilities/padding-collapse/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/show",
+            "name": "/docs/examples/utilities/show/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/table-cell-padding-overlap",
+            "name": "/docs/examples/utilities/table-cell-padding-overlap/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/text-figures",
+            "name": "/docs/examples/utilities/text-figures/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/text-max-width-container",
+            "name": "/docs/examples/utilities/text-max-width-container/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/text-max-width-divided",
+            "name": "/docs/examples/utilities/text-max-width-divided/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/text-max-width",
+            "name": "/docs/examples/utilities/text-max-width/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/text-with-icon",
+            "name": "/docs/examples/utilities/text-with-icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/truncate",
+            "name": "/docs/examples/utilities/truncate/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/vertical-spacing",
+            "name": "/docs/examples/utilities/vertical-spacing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/vertically-center",
+            "name": "/docs/examples/utilities/vertically-center/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/table-layout/table-layout-auto-nested",
+            "name": "/docs/examples/utilities/table-layout/table-layout-auto-nested/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/table-layout/table-layout-auto",
+            "name": "/docs/examples/utilities/table-layout/table-layout-auto/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/bottom-left",
+            "name": "/docs/examples/utilities/image-position/bottom-left/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/bottom-right",
+            "name": "/docs/examples/utilities/image-position/bottom-right/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/bottom",
+            "name": "/docs/examples/utilities/image-position/bottom/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/left",
+            "name": "/docs/examples/utilities/image-position/left/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/right",
+            "name": "/docs/examples/utilities/image-position/right/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/top-left",
+            "name": "/docs/examples/utilities/image-position/top-left/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/top-right",
+            "name": "/docs/examples/utilities/image-position/top-right/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/image-position/top",
+            "name": "/docs/examples/utilities/image-position/top/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/floats/default",
+            "name": "/docs/examples/utilities/floats/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/floats/large-screens",
+            "name": "/docs/examples/utilities/floats/large-screens/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/floats/medium-screens",
+            "name": "/docs/examples/utilities/floats/medium-screens/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/floats/small-screens",
+            "name": "/docs/examples/utilities/floats/small-screens/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/animations/spin",
+            "name": "/docs/examples/utilities/animations/spin/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/align/content",
+            "name": "/docs/examples/utilities/align/content/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/utilities/align/text",
+            "name": "/docs/examples/utilities/align/text/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/maas-docs-grid",
+            "name": "/docs/examples/templates/maas-docs-grid/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/maas-layout",
+            "name": "/docs/examples/templates/maas-layout/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/responsive",
+            "name": "/docs/examples/templates/responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/snapcraft-publicise",
+            "name": "/docs/examples/templates/snapcraft-publicise/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/tick-elements",
+            "name": "/docs/examples/templates/tick-elements/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/typographic-spacing",
+            "name": "/docs/examples/templates/typographic-spacing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/vertical-spacing",
+            "name": "/docs/examples/templates/vertical-spacing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/templates/z-index",
+            "name": "/docs/examples/templates/z-index/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/article-pagination",
+            "name": "/docs/examples/patterns/article-pagination/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/breadcrumbs",
+            "name": "/docs/examples/patterns/breadcrumbs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/labels",
+            "name": "/docs/examples/patterns/labels/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/list-tree",
+            "name": "/docs/examples/patterns/list-tree/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/matrix",
+            "name": "/docs/examples/patterns/matrix/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/separator",
+            "name": "/docs/examples/patterns/separator/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/status-labels",
+            "name": "/docs/examples/patterns/status-labels/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/switch",
+            "name": "/docs/examples/patterns/switch/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/text-small-caps",
+            "name": "/docs/examples/patterns/text-small-caps/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tooltips/default",
+            "name": "/docs/examples/patterns/tooltips/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tooltips/detached",
+            "name": "/docs/examples/patterns/tooltips/detached/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tabs/content-dark",
+            "name": "/docs/examples/patterns/tabs/content-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tabs/content",
+            "name": "/docs/examples/patterns/tabs/content/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tabs/navigation",
+            "name": "/docs/examples/patterns/tabs/navigation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-colored-rows",
+            "name": "/docs/examples/patterns/tables/table-colored-rows/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-expanding",
+            "name": "/docs/examples/patterns/tables/table-expanding/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-formatting",
+            "name": "/docs/examples/patterns/tables/table-formatting/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-icons",
+            "name": "/docs/examples/patterns/tables/table-icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-mobile-card-dark",
+            "name": "/docs/examples/patterns/tables/table-mobile-card-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-mobile-card",
+            "name": "/docs/examples/patterns/tables/table-mobile-card/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-overflow",
+            "name": "/docs/examples/patterns/tables/table-overflow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-sortable-dark",
+            "name": "/docs/examples/patterns/tables/table-sortable-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tables/table-sortable",
+            "name": "/docs/examples/patterns/tables/table-sortable/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/table-of-contents/default",
+            "name": "/docs/examples/patterns/table-of-contents/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/table-of-contents/sections",
+            "name": "/docs/examples/patterns/table-of-contents/sections/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tab-buttons/default",
+            "name": "/docs/examples/patterns/tab-buttons/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tab-buttons/dense",
+            "name": "/docs/examples/patterns/tab-buttons/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/tab-buttons/icons",
+            "name": "/docs/examples/patterns/tab-buttons/icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/50-50-dark",
+            "name": "/docs/examples/patterns/suru/50-50-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/50-50",
+            "name": "/docs/examples/patterns/suru/50-50/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/dark",
+            "name": "/docs/examples/patterns/suru/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/default",
+            "name": "/docs/examples/patterns/suru/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/divider",
+            "name": "/docs/examples/patterns/suru/divider/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/fan-bottom",
+            "name": "/docs/examples/patterns/suru/fan-bottom/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/fan-pyramid-left",
+            "name": "/docs/examples/patterns/suru/fan-pyramid-left/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/fan-pyramid-right",
+            "name": "/docs/examples/patterns/suru/fan-pyramid-right/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/fan-top",
+            "name": "/docs/examples/patterns/suru/fan-top/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/standalone",
+            "name": "/docs/examples/patterns/suru/standalone/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/suru/variants",
+            "name": "/docs/examples/patterns/suru/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/accent",
+            "name": "/docs/examples/patterns/strips/accent/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/dark",
+            "name": "/docs/examples/patterns/strips/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/deep",
+            "name": "/docs/examples/patterns/strips/deep/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/highlighted",
+            "name": "/docs/examples/patterns/strips/highlighted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/image",
+            "name": "/docs/examples/patterns/strips/image/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/is-bordered",
+            "name": "/docs/examples/patterns/strips/is-bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/shallow",
+            "name": "/docs/examples/patterns/strips/shallow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/strips-dark",
+            "name": "/docs/examples/patterns/strips/strips-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/strips-light",
+            "name": "/docs/examples/patterns/strips/strips-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/suru-topped",
+            "name": "/docs/examples/patterns/strips/suru-topped/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/suru",
+            "name": "/docs/examples/patterns/strips/suru/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/strips/white",
+            "name": "/docs/examples/patterns/strips/white/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/slider/slider-input",
+            "name": "/docs/examples/patterns/slider/slider-input/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/accordion-dark",
+            "name": "/docs/examples/patterns/side-navigation/accordion-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/accordion",
+            "name": "/docs/examples/patterns/side-navigation/accordion/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/application",
+            "name": "/docs/examples/patterns/side-navigation/application/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/dark",
+            "name": "/docs/examples/patterns/side-navigation/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/default",
+            "name": "/docs/examples/patterns/side-navigation/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/docs",
+            "name": "/docs/examples/patterns/side-navigation/docs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/expandable-dark",
+            "name": "/docs/examples/patterns/side-navigation/expandable-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/expandable",
+            "name": "/docs/examples/patterns/side-navigation/expandable/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/icons",
+            "name": "/docs/examples/patterns/side-navigation/icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/paper",
+            "name": "/docs/examples/patterns/side-navigation/paper/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/raw-html",
+            "name": "/docs/examples/patterns/side-navigation/raw-html/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/side-navigation/sticky",
+            "name": "/docs/examples/patterns/side-navigation/sticky/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/segmented-control/default",
+            "name": "/docs/examples/patterns/segmented-control/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/segmented-control/dense",
+            "name": "/docs/examples/patterns/segmented-control/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/segmented-control/icons",
+            "name": "/docs/examples/patterns/segmented-control/icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/section/deep",
+            "name": "/docs/examples/patterns/section/deep/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/section/hero",
+            "name": "/docs/examples/patterns/section/hero/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/section/section",
+            "name": "/docs/examples/patterns/section/section/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/section/shallow",
+            "name": "/docs/examples/patterns/section/shallow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-box/default-dark",
+            "name": "/docs/examples/patterns/search-box/default-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-box/default",
+            "name": "/docs/examples/patterns/search-box/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-and-filter/chip-overflow",
+            "name": "/docs/examples/patterns/search-and-filter/chip-overflow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-and-filter/default",
+            "name": "/docs/examples/patterns/search-and-filter/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-and-filter/expanded",
+            "name": "/docs/examples/patterns/search-and-filter/expanded/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-and-filter/with-chips",
+            "name": "/docs/examples/patterns/search-and-filter/with-chips/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/search-and-filter/with-search-prompt",
+            "name": "/docs/examples/patterns/search-and-filter/with-search-prompt/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/rule/dark",
+            "name": "/docs/examples/patterns/rule/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/rule/default",
+            "name": "/docs/examples/patterns/rule/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/rule/highlight",
+            "name": "/docs/examples/patterns/rule/highlight/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/rule/muted",
+            "name": "/docs/examples/patterns/rule/muted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pull-quotes/default-image",
+            "name": "/docs/examples/patterns/pull-quotes/default-image/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pull-quotes/default",
+            "name": "/docs/examples/patterns/pull-quotes/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pull-quotes/large",
+            "name": "/docs/examples/patterns/pull-quotes/large/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pull-quotes/small",
+            "name": "/docs/examples/patterns/pull-quotes/small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pull-quotes/variants",
+            "name": "/docs/examples/patterns/pull-quotes/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pagination/pagination-deprecated",
+            "name": "/docs/examples/patterns/pagination/pagination-deprecated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pagination/pagination-disabled",
+            "name": "/docs/examples/patterns/pagination/pagination-disabled/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pagination/pagination-truncated",
+            "name": "/docs/examples/patterns/pagination/pagination-truncated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pagination/pagination-verbose",
+            "name": "/docs/examples/patterns/pagination/pagination-verbose/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/pagination/pagination",
+            "name": "/docs/examples/patterns/pagination/pagination/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/action",
+            "name": "/docs/examples/patterns/notifications/action/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/borderless",
+            "name": "/docs/examples/patterns/notifications/borderless/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/caution",
+            "name": "/docs/examples/patterns/notifications/caution/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/dismissible",
+            "name": "/docs/examples/patterns/notifications/dismissible/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/information",
+            "name": "/docs/examples/patterns/notifications/information/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/inline",
+            "name": "/docs/examples/patterns/notifications/inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/negative",
+            "name": "/docs/examples/patterns/notifications/negative/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/notifications-dark",
+            "name": "/docs/examples/patterns/notifications/notifications-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/notifications",
+            "name": "/docs/examples/patterns/notifications/notifications/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/positive",
+            "name": "/docs/examples/patterns/notifications/positive/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/timestamp",
+            "name": "/docs/examples/patterns/notifications/timestamp/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/variants-dark",
+            "name": "/docs/examples/patterns/notifications/variants-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/notifications/variants",
+            "name": "/docs/examples/patterns/notifications/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/default",
+            "name": "/docs/examples/patterns/navigation/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/deprecated-dark",
+            "name": "/docs/examples/patterns/navigation/deprecated-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/deprecated-logo",
+            "name": "/docs/examples/patterns/navigation/deprecated-logo/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/deprecated",
+            "name": "/docs/examples/patterns/navigation/deprecated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/dropdown-alignment",
+            "name": "/docs/examples/patterns/navigation/dropdown-alignment/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/dropdown-dark",
+            "name": "/docs/examples/patterns/navigation/dropdown-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/dropdown",
+            "name": "/docs/examples/patterns/navigation/dropdown/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/full-width",
+            "name": "/docs/examples/patterns/navigation/full-width/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/search-dark",
+            "name": "/docs/examples/patterns/navigation/search-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/search-light",
+            "name": "/docs/examples/patterns/navigation/search-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/sliding-dark",
+            "name": "/docs/examples/patterns/navigation/sliding-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/sliding-light",
+            "name": "/docs/examples/patterns/navigation/sliding-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/navigation/sliding-search",
+            "name": "/docs/examples/patterns/navigation/sliding-search/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/modal/default",
+            "name": "/docs/examples/patterns/modal/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/modal/footer",
+            "name": "/docs/examples/patterns/modal/footer/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/modal/modal-scroll",
+            "name": "/docs/examples/patterns/modal/modal-scroll/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/media-object/media-object-circ-img",
+            "name": "/docs/examples/patterns/media-object/media-object-circ-img/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/media-object/media-object-large",
+            "name": "/docs/examples/patterns/media-object/media-object-large/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/media-object/media-object",
+            "name": "/docs/examples/patterns/media-object/media-object/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-dark",
+            "name": "/docs/examples/patterns/logo-section/logo-section-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-dense",
+            "name": "/docs/examples/patterns/logo-section/logo-section-dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-fallback",
+            "name": "/docs/examples/patterns/logo-section/logo-section-fallback/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-in-six-column-parent",
+            "name": "/docs/examples/patterns/logo-section/logo-section-in-six-column-parent/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-lazyloaded",
+            "name": "/docs/examples/patterns/logo-section/logo-section-lazyloaded/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-legacy",
+            "name": "/docs/examples/patterns/logo-section/logo-section-legacy/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section-line-breaks",
+            "name": "/docs/examples/patterns/logo-section/logo-section-line-breaks/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/logo-section/logo-section",
+            "name": "/docs/examples/patterns/logo-section/logo-section/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/list-nested-count",
+            "name": "/docs/examples/patterns/lists/list-nested-count/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/list-nested-stepped-detailed",
+            "name": "/docs/examples/patterns/lists/list-nested-stepped-detailed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/list",
+            "name": "/docs/examples/patterns/lists/list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-dividers-all-wrapping",
+            "name": "/docs/examples/patterns/lists/lists-dividers-all-wrapping/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-dividers-all",
+            "name": "/docs/examples/patterns/lists/lists-dividers-all/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-dividers-bulleted",
+            "name": "/docs/examples/patterns/lists/lists-dividers-bulleted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-dividers-ordered",
+            "name": "/docs/examples/patterns/lists/lists-dividers-ordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-dividers-ticked",
+            "name": "/docs/examples/patterns/lists/lists-dividers-ticked/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-dividers",
+            "name": "/docs/examples/patterns/lists/lists-dividers/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-inline-stretch-align",
+            "name": "/docs/examples/patterns/lists/lists-inline-stretch-align/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-inline-stretch",
+            "name": "/docs/examples/patterns/lists/lists-inline-stretch/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-inline",
+            "name": "/docs/examples/patterns/lists/lists-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-mid-dot-dark",
+            "name": "/docs/examples/patterns/lists/lists-mid-dot-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-mid-dot",
+            "name": "/docs/examples/patterns/lists/lists-mid-dot/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-split",
+            "name": "/docs/examples/patterns/lists/lists-split/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-status",
+            "name": "/docs/examples/patterns/lists/lists-status/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped-dark",
+            "name": "/docs/examples/patterns/lists/lists-stepped-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped-detailed-headings",
+            "name": "/docs/examples/patterns/lists/lists-stepped-detailed-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped-detailed",
+            "name": "/docs/examples/patterns/lists/lists-stepped-detailed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped-heading-classes",
+            "name": "/docs/examples/patterns/lists/lists-stepped-heading-classes/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped-headings",
+            "name": "/docs/examples/patterns/lists/lists-stepped-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped-without-headings",
+            "name": "/docs/examples/patterns/lists/lists-stepped-without-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/lists/lists-stepped",
+            "name": "/docs/examples/patterns/lists/lists-stepped/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/links/links-back-to-top",
+            "name": "/docs/examples/patterns/links/links-back-to-top/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/links/links-dark",
+            "name": "/docs/examples/patterns/links/links-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/links/links-inverted",
+            "name": "/docs/examples/patterns/links/links-inverted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/links/links-skip",
+            "name": "/docs/examples/patterns/links/links-skip/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/links/links-soft",
+            "name": "/docs/examples/patterns/links/links-soft/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/bordered",
+            "name": "/docs/examples/patterns/image/bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/caption",
+            "name": "/docs/examples/patterns/image/caption/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/shadowed",
+            "name": "/docs/examples/patterns/image/shadowed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/spacing",
+            "name": "/docs/examples/patterns/image/spacing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/container/highlighted",
+            "name": "/docs/examples/patterns/image/container/highlighted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/container/aspect-ratio/16-9",
+            "name": "/docs/examples/patterns/image/container/aspect-ratio/16-9/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/image/container/aspect-ratio/all",
+            "name": "/docs/examples/patterns/image/container/aspect-ratio/all/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/icons/icons-additional",
+            "name": "/docs/examples/patterns/icons/icons-additional/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/icons/icons-dark-deprecated",
+            "name": "/docs/examples/patterns/icons/icons-dark-deprecated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/icons/icons-dark",
+            "name": "/docs/examples/patterns/icons/icons-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/icons/icons-light",
+            "name": "/docs/examples/patterns/icons/icons-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/icons/icons-links",
+            "name": "/docs/examples/patterns/icons/icons-links/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/icons/icons-social",
+            "name": "/docs/examples/patterns/icons/icons-social/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-404",
+            "name": "/docs/examples/patterns/hero/hero-404/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-blog",
+            "name": "/docs/examples/patterns/hero/hero-blog/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-heading-1",
+            "name": "/docs/examples/patterns/hero/hero-heading-1/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-heading-2",
+            "name": "/docs/examples/patterns/hero/hero-heading-2/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-line-breaks",
+            "name": "/docs/examples/patterns/hero/hero-line-breaks/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-nested-grid",
+            "name": "/docs/examples/patterns/hero/hero-nested-grid/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-rules",
+            "name": "/docs/examples/patterns/hero/hero-rules/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-sections-search",
+            "name": "/docs/examples/patterns/hero/hero-sections-search/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-sections",
+            "name": "/docs/examples/patterns/hero/hero-sections/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/hero/hero-signpost",
+            "name": "/docs/examples/patterns/hero/hero-signpost/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/headings/default",
+            "name": "/docs/examples/patterns/headings/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/headings/display",
+            "name": "/docs/examples/patterns/headings/display/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/headings/mixed",
+            "name": "/docs/examples/patterns/headings/mixed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/headings/muted",
+            "name": "/docs/examples/patterns/headings/muted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/heading-icon/heading-icon-small",
+            "name": "/docs/examples/patterns/heading-icon/heading-icon-small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/heading-icon/heading-icon-stacked",
+            "name": "/docs/examples/patterns/heading-icon/heading-icon-stacked/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/heading-icon/heading-icon",
+            "name": "/docs/examples/patterns/heading-icon/heading-icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/25-25-25-25",
+            "name": "/docs/examples/patterns/grid/25-25-25-25/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/25-25-50",
+            "name": "/docs/examples/patterns/grid/25-25-50/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/25-75-mixed-responsive",
+            "name": "/docs/examples/patterns/grid/25-75-mixed-responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/25-75-responsive",
+            "name": "/docs/examples/patterns/grid/25-75-responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/25-75",
+            "name": "/docs/examples/patterns/grid/25-75/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/50-50",
+            "name": "/docs/examples/patterns/grid/50-50/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/bordered",
+            "name": "/docs/examples/patterns/grid/bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/default",
+            "name": "/docs/examples/patterns/grid/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/empty-columns",
+            "name": "/docs/examples/patterns/grid/empty-columns/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/full",
+            "name": "/docs/examples/patterns/grid/full/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/incorrect-empty-columns",
+            "name": "/docs/examples/patterns/grid/incorrect-empty-columns/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/nested-medium",
+            "name": "/docs/examples/patterns/grid/nested-medium/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/nested-small",
+            "name": "/docs/examples/patterns/grid/nested-small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/nested",
+            "name": "/docs/examples/patterns/grid/nested/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/offsets",
+            "name": "/docs/examples/patterns/grid/offsets/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/grid/responsive",
+            "name": "/docs/examples/patterns/grid/responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/checkbox-heading",
+            "name": "/docs/examples/patterns/forms/checkbox-heading/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/checkbox-indeterminate",
+            "name": "/docs/examples/patterns/forms/checkbox-indeterminate/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/checkbox-inline",
+            "name": "/docs/examples/patterns/forms/checkbox-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/checkbox-validation",
+            "name": "/docs/examples/patterns/forms/checkbox-validation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/checkbox",
+            "name": "/docs/examples/patterns/forms/checkbox/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/dense",
+            "name": "/docs/examples/patterns/forms/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/form-help-text",
+            "name": "/docs/examples/patterns/forms/form-help-text/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/form-inline",
+            "name": "/docs/examples/patterns/forms/form-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/form-stacked",
+            "name": "/docs/examples/patterns/forms/form-stacked/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/form-validation-dark",
+            "name": "/docs/examples/patterns/forms/form-validation-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/form-validation",
+            "name": "/docs/examples/patterns/forms/form-validation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/forms-dark",
+            "name": "/docs/examples/patterns/forms/forms-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/forms-required",
+            "name": "/docs/examples/patterns/forms/forms-required/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/password-toggle",
+            "name": "/docs/examples/patterns/forms/password-toggle/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/radio-heading",
+            "name": "/docs/examples/patterns/forms/radio-heading/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/radio-inline",
+            "name": "/docs/examples/patterns/forms/radio-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/radio-validation",
+            "name": "/docs/examples/patterns/forms/radio-validation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/radio",
+            "name": "/docs/examples/patterns/forms/radio/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/forms/tick-variants",
+            "name": "/docs/examples/patterns/forms/tick-variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/equal-height-row/3-column-row",
+            "name": "/docs/examples/patterns/equal-height-row/3-column-row/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/equal-height-row/4-items-per-column",
+            "name": "/docs/examples/patterns/equal-height-row/4-items-per-column/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/equal-height-row/default",
+            "name": "/docs/examples/patterns/equal-height-row/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/empty-state/error-management",
+            "name": "/docs/examples/patterns/empty-state/error-management/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/empty-state/no-content",
+            "name": "/docs/examples/patterns/empty-state/no-content/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/empty-state/user-triggered",
+            "name": "/docs/examples/patterns/empty-state/user-triggered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/divider/dark",
+            "name": "/docs/examples/patterns/divider/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/divider/default",
+            "name": "/docs/examples/patterns/divider/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/divider/responsive-columns",
+            "name": "/docs/examples/patterns/divider/responsive-columns/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/contextual-menu/dark",
+            "name": "/docs/examples/patterns/contextual-menu/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/contextual-menu/default",
+            "name": "/docs/examples/patterns/contextual-menu/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/contextual-menu/with-indicator",
+            "name": "/docs/examples/patterns/contextual-menu/with-indicator/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/default-dark",
+            "name": "/docs/examples/patterns/code-snippet/default-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/default",
+            "name": "/docs/examples/patterns/code-snippet/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/dropdown-multiple-dark",
+            "name": "/docs/examples/patterns/code-snippet/dropdown-multiple-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/dropdown-multiple",
+            "name": "/docs/examples/patterns/code-snippet/dropdown-multiple/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/dropdown",
+            "name": "/docs/examples/patterns/code-snippet/dropdown/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/icon-dark",
+            "name": "/docs/examples/patterns/code-snippet/icon-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/icon",
+            "name": "/docs/examples/patterns/code-snippet/icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/is-bordered",
+            "name": "/docs/examples/patterns/code-snippet/is-bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/numbered",
+            "name": "/docs/examples/patterns/code-snippet/numbered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/prism",
+            "name": "/docs/examples/patterns/code-snippet/prism/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/code-snippet/wrapping",
+            "name": "/docs/examples/patterns/code-snippet/wrapping/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/colors",
+            "name": "/docs/examples/patterns/chip/colors/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/dark",
+            "name": "/docs/examples/patterns/chip/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/default",
+            "name": "/docs/examples/patterns/chip/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/dense",
+            "name": "/docs/examples/patterns/chip/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/inline",
+            "name": "/docs/examples/patterns/chip/inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/long-values",
+            "name": "/docs/examples/patterns/chip/long-values/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/variants",
+            "name": "/docs/examples/patterns/chip/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/chip/with-dismiss",
+            "name": "/docs/examples/patterns/chip/with-dismiss/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/card/content-bleed",
+            "name": "/docs/examples/patterns/card/content-bleed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/card/default",
+            "name": "/docs/examples/patterns/card/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/card/header",
+            "name": "/docs/examples/patterns/card/header/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/card/highlighted",
+            "name": "/docs/examples/patterns/card/highlighted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/card/image",
+            "name": "/docs/examples/patterns/card/image/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/card/overlay",
+            "name": "/docs/examples/patterns/card/overlay/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/alignment",
+            "name": "/docs/examples/patterns/buttons/alignment/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/base",
+            "name": "/docs/examples/patterns/buttons/base/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/brand",
+            "name": "/docs/examples/patterns/buttons/brand/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/dark",
+            "name": "/docs/examples/patterns/buttons/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/default",
+            "name": "/docs/examples/patterns/buttons/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/dense",
+            "name": "/docs/examples/patterns/buttons/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/icon",
+            "name": "/docs/examples/patterns/buttons/icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/inline",
+            "name": "/docs/examples/patterns/buttons/inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/link",
+            "name": "/docs/examples/patterns/buttons/link/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/negative",
+            "name": "/docs/examples/patterns/buttons/negative/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/positive",
+            "name": "/docs/examples/patterns/buttons/positive/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/pressed",
+            "name": "/docs/examples/patterns/buttons/pressed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/processing",
+            "name": "/docs/examples/patterns/buttons/processing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/buttons/small",
+            "name": "/docs/examples/patterns/buttons/small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/badge/chips",
+            "name": "/docs/examples/patterns/badge/chips/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/badge/colors",
+            "name": "/docs/examples/patterns/badge/colors/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/badge/default",
+            "name": "/docs/examples/patterns/badge/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/badge/side-navigation",
+            "name": "/docs/examples/patterns/badge/side-navigation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/badge/tabs",
+            "name": "/docs/examples/patterns/badge/tabs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/accordion/default",
+            "name": "/docs/examples/patterns/accordion/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/accordion/headings",
+            "name": "/docs/examples/patterns/accordion/headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/patterns/accordion/tick-elements",
+            "name": "/docs/examples/patterns/accordion/tick-elements/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/docs",
+            "name": "/docs/examples/layouts/docs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/documentation",
+            "name": "/docs/examples/layouts/documentation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/sticky-footer",
+            "name": "/docs/examples/layouts/sticky-footer/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/full-width/default",
+            "name": "/docs/examples/layouts/full-width/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/full-width/no-sidebar",
+            "name": "/docs/examples/layouts/full-width/no-sidebar/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/full-width/structure",
+            "name": "/docs/examples/layouts/full-width/structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-cards-with-aside-and-toolbar",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-cards-with-aside-and-toolbar/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-full--cve-table",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-full--cve-table/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-full",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-full/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-left-aside-and-toolbar",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-left-aside-and-toolbar/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-left-aside",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-left-aside/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-no-aside",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-no-aside/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/fluid-breakout/fluid-breakout-right-aside",
+            "name": "/docs/examples/layouts/fluid-breakout/fluid-breakout-right-aside/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/application/JAAS",
+            "name": "/docs/examples/layouts/application/JAAS/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/application/default",
+            "name": "/docs/examples/layouts/application/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/application/split",
+            "name": "/docs/examples/layouts/application/split/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/layouts/application/structure",
+            "name": "/docs/examples/layouts/application/structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-25-25-25-split-structure",
+            "name": "/docs/examples/brochure/25-25-25-25-split-structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-25-50-split-structure",
+            "name": "/docs/examples/brochure/25-25-50-split-structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-25-50-split",
+            "name": "/docs/examples/brochure/25-25-50-split/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-75-nested",
+            "name": "/docs/examples/brochure/25-75-nested/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-75-offset-structure",
+            "name": "/docs/examples/brochure/25-75-offset-structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-75-offset",
+            "name": "/docs/examples/brochure/25-75-offset/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-75-split-responsive-structure",
+            "name": "/docs/examples/brochure/25-75-split-responsive-structure/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-75-split-structure",
+            "name": "/docs/examples/brochure/25-75-split-structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/25-75-split",
+            "name": "/docs/examples/brochure/25-75-split/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/50-50-split-structure",
+            "name": "/docs/examples/brochure/50-50-split-structure/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/50-50-split",
+            "name": "/docs/examples/brochure/50-50-split/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/brochure/index",
+            "name": "/docs/examples/brochure/index/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/abbr",
+            "name": "/docs/examples/base/abbr/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/blockquotes",
+            "name": "/docs/examples/base/blockquotes/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/button",
+            "name": "/docs/examples/base/button/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/code-block",
+            "name": "/docs/examples/base/code-block/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/code-inline-dark",
+            "name": "/docs/examples/base/code-inline-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/code-inline",
+            "name": "/docs/examples/base/code-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/details",
+            "name": "/docs/examples/base/details/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/font-weights",
+            "name": "/docs/examples/base/font-weights/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/headings-accented",
+            "name": "/docs/examples/base/headings-accented/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/headings",
+            "name": "/docs/examples/base/headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/hr-dark",
+            "name": "/docs/examples/base/hr-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/hr-fixed-width",
+            "name": "/docs/examples/base/hr-fixed-width/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/hr-muted",
+            "name": "/docs/examples/base/hr-muted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/hr",
+            "name": "/docs/examples/base/hr/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/links",
+            "name": "/docs/examples/base/links/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/pre",
+            "name": "/docs/examples/base/pre/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/small",
+            "name": "/docs/examples/base/small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/strong",
+            "name": "/docs/examples/base/strong/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/sub-headings",
+            "name": "/docs/examples/base/sub-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/sub",
+            "name": "/docs/examples/base/sub/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/sup",
+            "name": "/docs/examples/base/sup/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/table-empty",
+            "name": "/docs/examples/base/table-empty/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/table",
+            "name": "/docs/examples/base/table/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/variable-font",
+            "name": "/docs/examples/base/variable-font/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/paper/input-on-paper",
+            "name": "/docs/examples/base/paper/input-on-paper/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/paper/search-box-on-paper",
+            "name": "/docs/examples/base/paper/search-box-on-paper/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/lists/definition-list",
+            "name": "/docs/examples/base/lists/definition-list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/lists/ordered-list",
+            "name": "/docs/examples/base/lists/ordered-list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/lists/unordered-list",
+            "name": "/docs/examples/base/lists/unordered-list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/datalist",
+            "name": "/docs/examples/base/forms/datalist/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/disabled-input",
+            "name": "/docs/examples/base/forms/disabled-input/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/fieldset",
+            "name": "/docs/examples/base/forms/fieldset/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/form",
+            "name": "/docs/examples/base/forms/form/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/input",
+            "name": "/docs/examples/base/forms/input/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/labels",
+            "name": "/docs/examples/base/forms/labels/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/range",
+            "name": "/docs/examples/base/forms/range/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/select-multiple",
+            "name": "/docs/examples/base/forms/select-multiple/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/selects",
+            "name": "/docs/examples/base/forms/selects/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/textarea",
+            "name": "/docs/examples/base/forms/textarea/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/base/forms/tick-elements",
+            "name": "/docs/examples/base/forms/tick-elements/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/article-pagination",
+            "name": "/docs/examples/standalone/patterns/article-pagination/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/breadcrumbs",
+            "name": "/docs/examples/standalone/patterns/breadcrumbs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/labels",
+            "name": "/docs/examples/standalone/patterns/labels/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/list-tree",
+            "name": "/docs/examples/standalone/patterns/list-tree/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/matrix",
+            "name": "/docs/examples/standalone/patterns/matrix/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/separator",
+            "name": "/docs/examples/standalone/patterns/separator/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/status-labels",
+            "name": "/docs/examples/standalone/patterns/status-labels/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/switch",
+            "name": "/docs/examples/standalone/patterns/switch/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/text-small-caps",
+            "name": "/docs/examples/standalone/patterns/text-small-caps/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tooltips/default",
+            "name": "/docs/examples/standalone/patterns/tooltips/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tooltips/detached",
+            "name": "/docs/examples/standalone/patterns/tooltips/detached/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tabs/content-dark",
+            "name": "/docs/examples/standalone/patterns/tabs/content-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tabs/content",
+            "name": "/docs/examples/standalone/patterns/tabs/content/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tabs/navigation",
+            "name": "/docs/examples/standalone/patterns/tabs/navigation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-colored-rows",
+            "name": "/docs/examples/standalone/patterns/tables/table-colored-rows/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-expanding",
+            "name": "/docs/examples/standalone/patterns/tables/table-expanding/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-formatting",
+            "name": "/docs/examples/standalone/patterns/tables/table-formatting/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-icons",
+            "name": "/docs/examples/standalone/patterns/tables/table-icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-mobile-card-dark",
+            "name": "/docs/examples/standalone/patterns/tables/table-mobile-card-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-mobile-card",
+            "name": "/docs/examples/standalone/patterns/tables/table-mobile-card/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-overflow",
+            "name": "/docs/examples/standalone/patterns/tables/table-overflow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-sortable-dark",
+            "name": "/docs/examples/standalone/patterns/tables/table-sortable-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tables/table-sortable",
+            "name": "/docs/examples/standalone/patterns/tables/table-sortable/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/table-of-contents/default",
+            "name": "/docs/examples/standalone/patterns/table-of-contents/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/table-of-contents/sections",
+            "name": "/docs/examples/standalone/patterns/table-of-contents/sections/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tab-buttons/default",
+            "name": "/docs/examples/standalone/patterns/tab-buttons/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tab-buttons/dense",
+            "name": "/docs/examples/standalone/patterns/tab-buttons/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/tab-buttons/icons",
+            "name": "/docs/examples/standalone/patterns/tab-buttons/icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/50-50-dark",
+            "name": "/docs/examples/standalone/patterns/suru/50-50-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/50-50",
+            "name": "/docs/examples/standalone/patterns/suru/50-50/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/dark",
+            "name": "/docs/examples/standalone/patterns/suru/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/default",
+            "name": "/docs/examples/standalone/patterns/suru/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/divider",
+            "name": "/docs/examples/standalone/patterns/suru/divider/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/fan-bottom",
+            "name": "/docs/examples/standalone/patterns/suru/fan-bottom/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/fan-pyramid-left",
+            "name": "/docs/examples/standalone/patterns/suru/fan-pyramid-left/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/fan-pyramid-right",
+            "name": "/docs/examples/standalone/patterns/suru/fan-pyramid-right/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/fan-top",
+            "name": "/docs/examples/standalone/patterns/suru/fan-top/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/standalone",
+            "name": "/docs/examples/standalone/patterns/suru/standalone/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/suru/variants",
+            "name": "/docs/examples/standalone/patterns/suru/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/accent",
+            "name": "/docs/examples/standalone/patterns/strips/accent/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/dark",
+            "name": "/docs/examples/standalone/patterns/strips/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/deep",
+            "name": "/docs/examples/standalone/patterns/strips/deep/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/highlighted",
+            "name": "/docs/examples/standalone/patterns/strips/highlighted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/image",
+            "name": "/docs/examples/standalone/patterns/strips/image/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/is-bordered",
+            "name": "/docs/examples/standalone/patterns/strips/is-bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/shallow",
+            "name": "/docs/examples/standalone/patterns/strips/shallow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/strips-dark",
+            "name": "/docs/examples/standalone/patterns/strips/strips-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/strips-light",
+            "name": "/docs/examples/standalone/patterns/strips/strips-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/suru-topped",
+            "name": "/docs/examples/standalone/patterns/strips/suru-topped/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/suru",
+            "name": "/docs/examples/standalone/patterns/strips/suru/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/strips/white",
+            "name": "/docs/examples/standalone/patterns/strips/white/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/slider/slider-input",
+            "name": "/docs/examples/standalone/patterns/slider/slider-input/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/accordion-dark",
+            "name": "/docs/examples/standalone/patterns/side-navigation/accordion-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/accordion",
+            "name": "/docs/examples/standalone/patterns/side-navigation/accordion/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/application",
+            "name": "/docs/examples/standalone/patterns/side-navigation/application/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/dark",
+            "name": "/docs/examples/standalone/patterns/side-navigation/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/default",
+            "name": "/docs/examples/standalone/patterns/side-navigation/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/docs",
+            "name": "/docs/examples/standalone/patterns/side-navigation/docs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/expandable-dark",
+            "name": "/docs/examples/standalone/patterns/side-navigation/expandable-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/expandable",
+            "name": "/docs/examples/standalone/patterns/side-navigation/expandable/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/icons",
+            "name": "/docs/examples/standalone/patterns/side-navigation/icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/paper",
+            "name": "/docs/examples/standalone/patterns/side-navigation/paper/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/raw-html",
+            "name": "/docs/examples/standalone/patterns/side-navigation/raw-html/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/side-navigation/sticky",
+            "name": "/docs/examples/standalone/patterns/side-navigation/sticky/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/segmented-control/default",
+            "name": "/docs/examples/standalone/patterns/segmented-control/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/segmented-control/dense",
+            "name": "/docs/examples/standalone/patterns/segmented-control/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/segmented-control/icons",
+            "name": "/docs/examples/standalone/patterns/segmented-control/icons/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/section/deep",
+            "name": "/docs/examples/standalone/patterns/section/deep/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/section/hero",
+            "name": "/docs/examples/standalone/patterns/section/hero/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/section/section",
+            "name": "/docs/examples/standalone/patterns/section/section/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/section/shallow",
+            "name": "/docs/examples/standalone/patterns/section/shallow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-box/default-dark",
+            "name": "/docs/examples/standalone/patterns/search-box/default-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-box/default",
+            "name": "/docs/examples/standalone/patterns/search-box/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-and-filter/chip-overflow",
+            "name": "/docs/examples/standalone/patterns/search-and-filter/chip-overflow/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-and-filter/default",
+            "name": "/docs/examples/standalone/patterns/search-and-filter/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-and-filter/expanded",
+            "name": "/docs/examples/standalone/patterns/search-and-filter/expanded/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-and-filter/with-chips",
+            "name": "/docs/examples/standalone/patterns/search-and-filter/with-chips/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/search-and-filter/with-search-prompt",
+            "name": "/docs/examples/standalone/patterns/search-and-filter/with-search-prompt/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/rule/dark",
+            "name": "/docs/examples/standalone/patterns/rule/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/rule/default",
+            "name": "/docs/examples/standalone/patterns/rule/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/rule/highlight",
+            "name": "/docs/examples/standalone/patterns/rule/highlight/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/rule/muted",
+            "name": "/docs/examples/standalone/patterns/rule/muted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pull-quotes/default-image",
+            "name": "/docs/examples/standalone/patterns/pull-quotes/default-image/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pull-quotes/default",
+            "name": "/docs/examples/standalone/patterns/pull-quotes/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pull-quotes/large",
+            "name": "/docs/examples/standalone/patterns/pull-quotes/large/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pull-quotes/small",
+            "name": "/docs/examples/standalone/patterns/pull-quotes/small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pull-quotes/variants",
+            "name": "/docs/examples/standalone/patterns/pull-quotes/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pagination/pagination-deprecated",
+            "name": "/docs/examples/standalone/patterns/pagination/pagination-deprecated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pagination/pagination-disabled",
+            "name": "/docs/examples/standalone/patterns/pagination/pagination-disabled/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pagination/pagination-truncated",
+            "name": "/docs/examples/standalone/patterns/pagination/pagination-truncated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pagination/pagination-verbose",
+            "name": "/docs/examples/standalone/patterns/pagination/pagination-verbose/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/pagination/pagination",
+            "name": "/docs/examples/standalone/patterns/pagination/pagination/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/action",
+            "name": "/docs/examples/standalone/patterns/notifications/action/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/borderless",
+            "name": "/docs/examples/standalone/patterns/notifications/borderless/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/caution",
+            "name": "/docs/examples/standalone/patterns/notifications/caution/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/dismissible",
+            "name": "/docs/examples/standalone/patterns/notifications/dismissible/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/information",
+            "name": "/docs/examples/standalone/patterns/notifications/information/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/inline",
+            "name": "/docs/examples/standalone/patterns/notifications/inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/negative",
+            "name": "/docs/examples/standalone/patterns/notifications/negative/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/notifications-dark",
+            "name": "/docs/examples/standalone/patterns/notifications/notifications-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/notifications",
+            "name": "/docs/examples/standalone/patterns/notifications/notifications/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/positive",
+            "name": "/docs/examples/standalone/patterns/notifications/positive/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/timestamp",
+            "name": "/docs/examples/standalone/patterns/notifications/timestamp/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/variants-dark",
+            "name": "/docs/examples/standalone/patterns/notifications/variants-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/notifications/variants",
+            "name": "/docs/examples/standalone/patterns/notifications/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/default",
+            "name": "/docs/examples/standalone/patterns/navigation/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/deprecated-dark",
+            "name": "/docs/examples/standalone/patterns/navigation/deprecated-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/deprecated-logo",
+            "name": "/docs/examples/standalone/patterns/navigation/deprecated-logo/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/deprecated",
+            "name": "/docs/examples/standalone/patterns/navigation/deprecated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/dropdown-alignment",
+            "name": "/docs/examples/standalone/patterns/navigation/dropdown-alignment/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/dropdown-dark",
+            "name": "/docs/examples/standalone/patterns/navigation/dropdown-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/dropdown",
+            "name": "/docs/examples/standalone/patterns/navigation/dropdown/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/full-width",
+            "name": "/docs/examples/standalone/patterns/navigation/full-width/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/search-dark",
+            "name": "/docs/examples/standalone/patterns/navigation/search-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/search-light",
+            "name": "/docs/examples/standalone/patterns/navigation/search-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/sliding-dark",
+            "name": "/docs/examples/standalone/patterns/navigation/sliding-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/sliding-light",
+            "name": "/docs/examples/standalone/patterns/navigation/sliding-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/navigation/sliding-search",
+            "name": "/docs/examples/standalone/patterns/navigation/sliding-search/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/modal/default",
+            "name": "/docs/examples/standalone/patterns/modal/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/modal/footer",
+            "name": "/docs/examples/standalone/patterns/modal/footer/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/modal/modal-scroll",
+            "name": "/docs/examples/standalone/patterns/modal/modal-scroll/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/media-object/media-object-circ-img",
+            "name": "/docs/examples/standalone/patterns/media-object/media-object-circ-img/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/media-object/media-object-large",
+            "name": "/docs/examples/standalone/patterns/media-object/media-object-large/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/media-object/media-object",
+            "name": "/docs/examples/standalone/patterns/media-object/media-object/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-dark",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-dense",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-fallback",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-fallback/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-in-six-column-parent",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-in-six-column-parent/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-lazyloaded",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-lazyloaded/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-legacy",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-legacy/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section-line-breaks",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section-line-breaks/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/logo-section/logo-section",
+            "name": "/docs/examples/standalone/patterns/logo-section/logo-section/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/list-nested-count",
+            "name": "/docs/examples/standalone/patterns/lists/list-nested-count/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/list-nested-stepped-detailed",
+            "name": "/docs/examples/standalone/patterns/lists/list-nested-stepped-detailed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/list",
+            "name": "/docs/examples/standalone/patterns/lists/list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-dividers-all-wrapping",
+            "name": "/docs/examples/standalone/patterns/lists/lists-dividers-all-wrapping/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-dividers-all",
+            "name": "/docs/examples/standalone/patterns/lists/lists-dividers-all/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-dividers-bulleted",
+            "name": "/docs/examples/standalone/patterns/lists/lists-dividers-bulleted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-dividers-ordered",
+            "name": "/docs/examples/standalone/patterns/lists/lists-dividers-ordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-dividers-ticked",
+            "name": "/docs/examples/standalone/patterns/lists/lists-dividers-ticked/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-dividers",
+            "name": "/docs/examples/standalone/patterns/lists/lists-dividers/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-inline-stretch-align",
+            "name": "/docs/examples/standalone/patterns/lists/lists-inline-stretch-align/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-inline-stretch",
+            "name": "/docs/examples/standalone/patterns/lists/lists-inline-stretch/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-inline",
+            "name": "/docs/examples/standalone/patterns/lists/lists-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-mid-dot-dark",
+            "name": "/docs/examples/standalone/patterns/lists/lists-mid-dot-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-mid-dot",
+            "name": "/docs/examples/standalone/patterns/lists/lists-mid-dot/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-split",
+            "name": "/docs/examples/standalone/patterns/lists/lists-split/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-status",
+            "name": "/docs/examples/standalone/patterns/lists/lists-status/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped-dark",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped-detailed-headings",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped-detailed-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped-detailed",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped-detailed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped-heading-classes",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped-heading-classes/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped-headings",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped-without-headings",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped-without-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/lists/lists-stepped",
+            "name": "/docs/examples/standalone/patterns/lists/lists-stepped/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/links/links-back-to-top",
+            "name": "/docs/examples/standalone/patterns/links/links-back-to-top/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/links/links-dark",
+            "name": "/docs/examples/standalone/patterns/links/links-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/links/links-inverted",
+            "name": "/docs/examples/standalone/patterns/links/links-inverted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/links/links-skip",
+            "name": "/docs/examples/standalone/patterns/links/links-skip/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/links/links-soft",
+            "name": "/docs/examples/standalone/patterns/links/links-soft/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/bordered",
+            "name": "/docs/examples/standalone/patterns/image/bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/caption",
+            "name": "/docs/examples/standalone/patterns/image/caption/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/shadowed",
+            "name": "/docs/examples/standalone/patterns/image/shadowed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/spacing",
+            "name": "/docs/examples/standalone/patterns/image/spacing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/container/highlighted",
+            "name": "/docs/examples/standalone/patterns/image/container/highlighted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/container/aspect-ratio/16-9",
+            "name": "/docs/examples/standalone/patterns/image/container/aspect-ratio/16-9/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/image/container/aspect-ratio/all",
+            "name": "/docs/examples/standalone/patterns/image/container/aspect-ratio/all/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/icons/icons-additional",
+            "name": "/docs/examples/standalone/patterns/icons/icons-additional/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/icons/icons-dark-deprecated",
+            "name": "/docs/examples/standalone/patterns/icons/icons-dark-deprecated/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/icons/icons-dark",
+            "name": "/docs/examples/standalone/patterns/icons/icons-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/icons/icons-light",
+            "name": "/docs/examples/standalone/patterns/icons/icons-light/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/icons/icons-links",
+            "name": "/docs/examples/standalone/patterns/icons/icons-links/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/icons/icons-social",
+            "name": "/docs/examples/standalone/patterns/icons/icons-social/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-404",
+            "name": "/docs/examples/standalone/patterns/hero/hero-404/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-blog",
+            "name": "/docs/examples/standalone/patterns/hero/hero-blog/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-heading-1",
+            "name": "/docs/examples/standalone/patterns/hero/hero-heading-1/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-heading-2",
+            "name": "/docs/examples/standalone/patterns/hero/hero-heading-2/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-line-breaks",
+            "name": "/docs/examples/standalone/patterns/hero/hero-line-breaks/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-nested-grid",
+            "name": "/docs/examples/standalone/patterns/hero/hero-nested-grid/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-rules",
+            "name": "/docs/examples/standalone/patterns/hero/hero-rules/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-sections-search",
+            "name": "/docs/examples/standalone/patterns/hero/hero-sections-search/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-sections",
+            "name": "/docs/examples/standalone/patterns/hero/hero-sections/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/hero/hero-signpost",
+            "name": "/docs/examples/standalone/patterns/hero/hero-signpost/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/headings/default",
+            "name": "/docs/examples/standalone/patterns/headings/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/headings/display",
+            "name": "/docs/examples/standalone/patterns/headings/display/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/headings/mixed",
+            "name": "/docs/examples/standalone/patterns/headings/mixed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/headings/muted",
+            "name": "/docs/examples/standalone/patterns/headings/muted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/heading-icon/heading-icon-small",
+            "name": "/docs/examples/standalone/patterns/heading-icon/heading-icon-small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/heading-icon/heading-icon-stacked",
+            "name": "/docs/examples/standalone/patterns/heading-icon/heading-icon-stacked/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/heading-icon/heading-icon",
+            "name": "/docs/examples/standalone/patterns/heading-icon/heading-icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/25-25-25-25",
+            "name": "/docs/examples/standalone/patterns/grid/25-25-25-25/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/25-25-50",
+            "name": "/docs/examples/standalone/patterns/grid/25-25-50/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/25-75-mixed-responsive",
+            "name": "/docs/examples/standalone/patterns/grid/25-75-mixed-responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/25-75-responsive",
+            "name": "/docs/examples/standalone/patterns/grid/25-75-responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/25-75",
+            "name": "/docs/examples/standalone/patterns/grid/25-75/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/50-50",
+            "name": "/docs/examples/standalone/patterns/grid/50-50/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/bordered",
+            "name": "/docs/examples/standalone/patterns/grid/bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/default",
+            "name": "/docs/examples/standalone/patterns/grid/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/empty-columns",
+            "name": "/docs/examples/standalone/patterns/grid/empty-columns/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/full",
+            "name": "/docs/examples/standalone/patterns/grid/full/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/incorrect-empty-columns",
+            "name": "/docs/examples/standalone/patterns/grid/incorrect-empty-columns/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/nested-medium",
+            "name": "/docs/examples/standalone/patterns/grid/nested-medium/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/nested-small",
+            "name": "/docs/examples/standalone/patterns/grid/nested-small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/nested",
+            "name": "/docs/examples/standalone/patterns/grid/nested/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/offsets",
+            "name": "/docs/examples/standalone/patterns/grid/offsets/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/grid/responsive",
+            "name": "/docs/examples/standalone/patterns/grid/responsive/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/checkbox-heading",
+            "name": "/docs/examples/standalone/patterns/forms/checkbox-heading/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/checkbox-indeterminate",
+            "name": "/docs/examples/standalone/patterns/forms/checkbox-indeterminate/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/checkbox-inline",
+            "name": "/docs/examples/standalone/patterns/forms/checkbox-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/checkbox-validation",
+            "name": "/docs/examples/standalone/patterns/forms/checkbox-validation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/checkbox",
+            "name": "/docs/examples/standalone/patterns/forms/checkbox/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/dense",
+            "name": "/docs/examples/standalone/patterns/forms/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/form-help-text",
+            "name": "/docs/examples/standalone/patterns/forms/form-help-text/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/form-inline",
+            "name": "/docs/examples/standalone/patterns/forms/form-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/form-stacked",
+            "name": "/docs/examples/standalone/patterns/forms/form-stacked/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/form-validation-dark",
+            "name": "/docs/examples/standalone/patterns/forms/form-validation-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/form-validation",
+            "name": "/docs/examples/standalone/patterns/forms/form-validation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/forms-dark",
+            "name": "/docs/examples/standalone/patterns/forms/forms-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/forms-required",
+            "name": "/docs/examples/standalone/patterns/forms/forms-required/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/password-toggle",
+            "name": "/docs/examples/standalone/patterns/forms/password-toggle/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/radio-heading",
+            "name": "/docs/examples/standalone/patterns/forms/radio-heading/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/radio-inline",
+            "name": "/docs/examples/standalone/patterns/forms/radio-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/radio-validation",
+            "name": "/docs/examples/standalone/patterns/forms/radio-validation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/radio",
+            "name": "/docs/examples/standalone/patterns/forms/radio/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/forms/tick-variants",
+            "name": "/docs/examples/standalone/patterns/forms/tick-variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/equal-height-row/3-column-row",
+            "name": "/docs/examples/standalone/patterns/equal-height-row/3-column-row/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/equal-height-row/4-items-per-column",
+            "name": "/docs/examples/standalone/patterns/equal-height-row/4-items-per-column/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/equal-height-row/default",
+            "name": "/docs/examples/standalone/patterns/equal-height-row/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/empty-state/error-management",
+            "name": "/docs/examples/standalone/patterns/empty-state/error-management/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/empty-state/no-content",
+            "name": "/docs/examples/standalone/patterns/empty-state/no-content/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/empty-state/user-triggered",
+            "name": "/docs/examples/standalone/patterns/empty-state/user-triggered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/divider/dark",
+            "name": "/docs/examples/standalone/patterns/divider/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/divider/default",
+            "name": "/docs/examples/standalone/patterns/divider/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/divider/responsive-columns",
+            "name": "/docs/examples/standalone/patterns/divider/responsive-columns/",
+            "widths": [
+                375,
+                800,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/contextual-menu/dark",
+            "name": "/docs/examples/standalone/patterns/contextual-menu/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/contextual-menu/default",
+            "name": "/docs/examples/standalone/patterns/contextual-menu/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/contextual-menu/with-indicator",
+            "name": "/docs/examples/standalone/patterns/contextual-menu/with-indicator/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/default-dark",
+            "name": "/docs/examples/standalone/patterns/code-snippet/default-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/default",
+            "name": "/docs/examples/standalone/patterns/code-snippet/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/dropdown-multiple-dark",
+            "name": "/docs/examples/standalone/patterns/code-snippet/dropdown-multiple-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/dropdown-multiple",
+            "name": "/docs/examples/standalone/patterns/code-snippet/dropdown-multiple/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/dropdown",
+            "name": "/docs/examples/standalone/patterns/code-snippet/dropdown/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/icon-dark",
+            "name": "/docs/examples/standalone/patterns/code-snippet/icon-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/icon",
+            "name": "/docs/examples/standalone/patterns/code-snippet/icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/is-bordered",
+            "name": "/docs/examples/standalone/patterns/code-snippet/is-bordered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/numbered",
+            "name": "/docs/examples/standalone/patterns/code-snippet/numbered/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/prism",
+            "name": "/docs/examples/standalone/patterns/code-snippet/prism/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/code-snippet/wrapping",
+            "name": "/docs/examples/standalone/patterns/code-snippet/wrapping/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/colors",
+            "name": "/docs/examples/standalone/patterns/chip/colors/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/dark",
+            "name": "/docs/examples/standalone/patterns/chip/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/default",
+            "name": "/docs/examples/standalone/patterns/chip/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/dense",
+            "name": "/docs/examples/standalone/patterns/chip/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/inline",
+            "name": "/docs/examples/standalone/patterns/chip/inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/long-values",
+            "name": "/docs/examples/standalone/patterns/chip/long-values/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/variants",
+            "name": "/docs/examples/standalone/patterns/chip/variants/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/chip/with-dismiss",
+            "name": "/docs/examples/standalone/patterns/chip/with-dismiss/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/card/content-bleed",
+            "name": "/docs/examples/standalone/patterns/card/content-bleed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/card/default",
+            "name": "/docs/examples/standalone/patterns/card/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/card/header",
+            "name": "/docs/examples/standalone/patterns/card/header/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/card/highlighted",
+            "name": "/docs/examples/standalone/patterns/card/highlighted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/card/image",
+            "name": "/docs/examples/standalone/patterns/card/image/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/card/overlay",
+            "name": "/docs/examples/standalone/patterns/card/overlay/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/alignment",
+            "name": "/docs/examples/standalone/patterns/buttons/alignment/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/base",
+            "name": "/docs/examples/standalone/patterns/buttons/base/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/brand",
+            "name": "/docs/examples/standalone/patterns/buttons/brand/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/dark",
+            "name": "/docs/examples/standalone/patterns/buttons/dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/default",
+            "name": "/docs/examples/standalone/patterns/buttons/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/dense",
+            "name": "/docs/examples/standalone/patterns/buttons/dense/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/icon",
+            "name": "/docs/examples/standalone/patterns/buttons/icon/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/inline",
+            "name": "/docs/examples/standalone/patterns/buttons/inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/link",
+            "name": "/docs/examples/standalone/patterns/buttons/link/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/negative",
+            "name": "/docs/examples/standalone/patterns/buttons/negative/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/positive",
+            "name": "/docs/examples/standalone/patterns/buttons/positive/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/pressed",
+            "name": "/docs/examples/standalone/patterns/buttons/pressed/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/processing",
+            "name": "/docs/examples/standalone/patterns/buttons/processing/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/buttons/small",
+            "name": "/docs/examples/standalone/patterns/buttons/small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/badge/chips",
+            "name": "/docs/examples/standalone/patterns/badge/chips/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/badge/colors",
+            "name": "/docs/examples/standalone/patterns/badge/colors/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/badge/default",
+            "name": "/docs/examples/standalone/patterns/badge/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/badge/side-navigation",
+            "name": "/docs/examples/standalone/patterns/badge/side-navigation/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/badge/tabs",
+            "name": "/docs/examples/standalone/patterns/badge/tabs/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/accordion/default",
+            "name": "/docs/examples/standalone/patterns/accordion/default/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/accordion/headings",
+            "name": "/docs/examples/standalone/patterns/accordion/headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/patterns/accordion/tick-elements",
+            "name": "/docs/examples/standalone/patterns/accordion/tick-elements/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/abbr",
+            "name": "/docs/examples/standalone/base/abbr/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/blockquotes",
+            "name": "/docs/examples/standalone/base/blockquotes/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/button",
+            "name": "/docs/examples/standalone/base/button/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/code-block",
+            "name": "/docs/examples/standalone/base/code-block/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/code-inline-dark",
+            "name": "/docs/examples/standalone/base/code-inline-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/code-inline",
+            "name": "/docs/examples/standalone/base/code-inline/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/details",
+            "name": "/docs/examples/standalone/base/details/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/font-weights",
+            "name": "/docs/examples/standalone/base/font-weights/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/headings-accented",
+            "name": "/docs/examples/standalone/base/headings-accented/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/headings",
+            "name": "/docs/examples/standalone/base/headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/hr-dark",
+            "name": "/docs/examples/standalone/base/hr-dark/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/hr-fixed-width",
+            "name": "/docs/examples/standalone/base/hr-fixed-width/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/hr-muted",
+            "name": "/docs/examples/standalone/base/hr-muted/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/hr",
+            "name": "/docs/examples/standalone/base/hr/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/links",
+            "name": "/docs/examples/standalone/base/links/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/pre",
+            "name": "/docs/examples/standalone/base/pre/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/small",
+            "name": "/docs/examples/standalone/base/small/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/strong",
+            "name": "/docs/examples/standalone/base/strong/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/sub-headings",
+            "name": "/docs/examples/standalone/base/sub-headings/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/sub",
+            "name": "/docs/examples/standalone/base/sub/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/sup",
+            "name": "/docs/examples/standalone/base/sup/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/table-empty",
+            "name": "/docs/examples/standalone/base/table-empty/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/table",
+            "name": "/docs/examples/standalone/base/table/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/variable-font",
+            "name": "/docs/examples/standalone/base/variable-font/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/paper/input-on-paper",
+            "name": "/docs/examples/standalone/base/paper/input-on-paper/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/paper/search-box-on-paper",
+            "name": "/docs/examples/standalone/base/paper/search-box-on-paper/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/lists/definition-list",
+            "name": "/docs/examples/standalone/base/lists/definition-list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/lists/ordered-list",
+            "name": "/docs/examples/standalone/base/lists/ordered-list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/lists/unordered-list",
+            "name": "/docs/examples/standalone/base/lists/unordered-list/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/datalist",
+            "name": "/docs/examples/standalone/base/forms/datalist/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/disabled-input",
+            "name": "/docs/examples/standalone/base/forms/disabled-input/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/fieldset",
+            "name": "/docs/examples/standalone/base/forms/fieldset/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/form",
+            "name": "/docs/examples/standalone/base/forms/form/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/input",
+            "name": "/docs/examples/standalone/base/forms/input/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/labels",
+            "name": "/docs/examples/standalone/base/forms/labels/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/range",
+            "name": "/docs/examples/standalone/base/forms/range/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/select-multiple",
+            "name": "/docs/examples/standalone/base/forms/select-multiple/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/selects",
+            "name": "/docs/examples/standalone/base/forms/selects/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/textarea",
+            "name": "/docs/examples/standalone/base/forms/textarea/",
+            "widths": [
+                375,
+                1280
+            ]
+        },
+        {
+            "url": "http://localhost:8101/docs/examples/standalone/base/forms/tick-elements",
+            "name": "/docs/examples/standalone/base/forms/tick-elements/",
+            "widths": [
+                375,
+                1280
+            ]
+        }
+    ]
+}
