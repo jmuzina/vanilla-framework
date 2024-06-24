@@ -11,6 +11,14 @@ on:
       - synchronize
 
 jobs:
+  echo_labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo labels
+        run: |
+          echo "Labels: ${{ github.event.pull_request.labels.*.name }}"
+          echo "Has Percy label: ${{ contains(github.event.pull_request.labels.*.name, 'Review: Percy needed') }}"
+
   copy_artifact:
     name: Copy changed files to GHA artifact
     if: contains(github.event.pull_request.labels.*.name, vars.PERCY_TEST_REQUESTED_LABEL_NAME)
