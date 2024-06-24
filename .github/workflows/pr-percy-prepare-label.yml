@@ -21,7 +21,7 @@ jobs:
 
   copy_artifact:
     name: Copy changed files to GHA artifact
-    if: contains(github.event.pull_request.labels.*.name, vars.PERCY_TEST_REQUESTED_LABEL_NAME)
+    if: "contains(github.event.pull_request.labels.*.name, 'Review: Percy needed')"
     uses: ./.github/workflows/percy-prepare.yml
     with:
       pr_number: ${{ github.event.number }}
