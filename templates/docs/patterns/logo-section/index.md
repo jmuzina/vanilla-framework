@@ -62,6 +62,8 @@ To import just this component into your project, copy the snippet below and incl
 @include vf-base;
 
 @include vf-p-logo-section;
+@include vf-p-strip;
+@include vf-u-layout;
 ```
 
 For more information see [Customising Vanilla](/docs/customising-vanilla/) in your projects, which includes overrides and importing instructions.
