@@ -11,7 +11,21 @@ on:
       - synchronize
 
 jobs:
+  echo_action:
+    name: Echo action
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo action
+        run: |
+          echo "Action: ${{ github.event.action }}"
+          if [ "${{ github.event.action }}" == "labeled" ]; then
+            echo "Label: ${{ github.event.label.name }}"
+          else
+            echo "Labels: ${{ toJson(github.event.pull_request.labels.*.name) }}"
+          fi
+
   copy_artifact:
+    needs: echo_action
     name: Copy changed files to GHA artifact
     if: "(github.event.action == 'synchronize' && contains(toJson(github.event.pull_request.labels.*.name), 'Review: Percy needed')) || (github.event.action == 'labeled' && github.event.label.name == 'Review: Percy needed')"
     uses: ./.github/workflows/percy-prepare.yml
