@@ -91,7 +91,7 @@ runs:
         # Start a percy build and capture the stdout
 
         # Start a percy build and capture the stdout and stderr
-        percy_output=$(yarn percy 2>&1)
+        percy_output=$(yarn percy 2>&1 | tee /dev/tty)
         
         echo "$percy_output"
         
