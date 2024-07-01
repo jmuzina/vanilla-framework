@@ -1,0 +1,19 @@
+@import 'settings';
+
+@mixin vf-p-quote-wrapper {
+  .p-quote-wrapper .p-quote-wrapper__heading {
+    padding-bottom: $spv--strip-shallow;
+  }
+
+  .p-quote-wrapper .p-quote-wrapper__logo {
+    padding: $spv--large 0;
+  }
+
+  .p-quote-wrapper .p-quote-wrapper__citation {
+    padding-top: $spv--x-small;
+
+    .p-quote-wrapper__citation-role {
+      color: $colors--theme--text-muted;
+    }
+  }
+}
