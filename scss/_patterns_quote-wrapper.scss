@@ -9,6 +9,10 @@
     padding: $spv--large 0;
   }
 
+  .p-quote-wrapper .p-quote-wrapper__quote {
+    font-style: italic;
+  }
+
   .p-quote-wrapper .p-quote-wrapper__citation {
     padding-top: $spv--x-small;
 
