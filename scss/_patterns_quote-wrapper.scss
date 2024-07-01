@@ -15,6 +15,7 @@
 
   /**
     * We target the h2 case specially as it is using H2 still for a11y reasons, but we need to alter text style
+    * is it better to use a <span> with role=heading and aria-level="2" here?
    */
   .p-quote-wrapper.is-h2 .p-quote-wrapper__heading {
     @extend %small-caps-text;
