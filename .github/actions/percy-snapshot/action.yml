@@ -90,11 +90,11 @@ runs:
         # Start a percy build and capture the stdout and stderr
         percy_output=$(
           {
-            yarn percy 2> >(tee /dev/stderr)
-          } | tee /dev/stdout
+            yarn percy 2>&1
+          } | tee /dev/stderr
         )
         
-        echo "$percy_output"
+        echo "percy output is $percy_output"
         
         # Fail if the Percy stdout contains "Build not created"
         if echo "$percy_output" | grep -q "Build not created"; then
@@ -105,7 +105,7 @@ runs:
         fi
         
         # Extract the build link from the stdout of the snapshot command
-        build_link=$(echo "$percy_output" | sed -n 's/.*Finalized build #.*: \(https:\/\/percy.io\/[^ ]*\).*/\1/p' )
+        build_link=$(echo "$percy_output" | sed -n 's/.*Finalized build #.*: \(https:\/\/percy.io\/[^ ]*\).*/\1/p')
         # Sanitize the build_link to remove any newlines or spaces
         build_link=$(echo "$build_link" | tr -d '\n' | tr -d ' ')
         
