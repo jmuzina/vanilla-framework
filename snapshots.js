@@ -128,7 +128,9 @@ async function getPercyConfigURLs() {
     });
   }
 
-  return urls;
+  urls[0].widths = [urls[0].widths[0]];
+
+  return urls[0];
 }
 
 module.exports = async () => {
