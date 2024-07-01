@@ -91,7 +91,8 @@ runs:
         # Start a percy build and capture the stdout
 
         # Start a percy build and capture the stdout and stderr
-        percy_output=$(yarn percy 2>&1 | tee /dev/tty)
+        # Simulate an error output in the yarn percy command
+        percy_output=$( (echo "Build not created" && false) 2>&1 | tee /dev/tty)
         
         echo "$percy_output"
         
