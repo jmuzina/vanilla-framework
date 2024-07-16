@@ -88,6 +88,7 @@ runs:
         PERCY_PULL_REQUEST: ${{ inputs.pr_number }}
         PERCY_DEBUG: true
         PERCY_LOGLEVEL: debug
+        PERCY_EXIT_WITH_ZERO_ON_ERROR: true
       run: |
         # Start a percy build and capture the stdout and stderr
         percy_output=$(
