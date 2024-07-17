@@ -2,8 +2,6 @@
 {% block title %}Hero / Signpost Logo{% endblock %}
 {% block standalone_css %}patterns_hero{% endblock %}
 
-{% block style %}{% endblock %}
-
 {% set is_paper = True %}
 {% block content %}
 
@@ -25,10 +23,8 @@
         <p>Generally, the height of the right hand side of a 50/50 split should contain more content than the left
           hand side.</p>
       </div>
-      <!-- TODO replace this with CTA from the CTA block PR once that is merged & rebased into this -->
-      <hr>
-      <div class="p-section--shallow">
-        <button class="p-button--positive">Learn more</button>
+      <div class="p-cta-block">
+        <a href="#" class="p-button--positive">Learn more</a>
         <a href="#">Contact us ›</a>
       </div>
     </div>
