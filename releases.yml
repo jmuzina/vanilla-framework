@@ -4,8 +4,6 @@
       url: /docs/patterns/cta-block
       status: New
       notes: We've introduced a new CTA block component.
-- version: 4.15.0
-  features:
     - component: Hero
       url: /docs/patterns/hero#layouts
       status: Updated
