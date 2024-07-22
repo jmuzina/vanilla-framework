@@ -104,4 +104,19 @@
       }
     }
   }
+
+  // support for 75-25 split on large screen size for this pattern
+  .row--75-25-on-large > .col {
+    & .p-equal-height-row {
+      grid-template-columns: repeat($grid-columns-small, minmax(0, 1fr));
+
+      @media screen and ($breakpoint-small <= width < $breakpoint-large) {
+        grid-template-columns: repeat($grid-columns-medium, minmax(0, 1fr));
+      }
+
+      @media screen and (width >= $breakpoint-large) {
+        grid-template-columns: repeat(9, minmax(0, 1fr));
+      }
+    }
+  }
 }
