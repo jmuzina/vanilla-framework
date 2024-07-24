@@ -98,8 +98,6 @@
       url: /docs/patterns/segmented-control
     - title: Slider
       url: /docs/patterns/slider
-    - title: Split list
-      url: /docs/patterns/split-list
     - title: Status labels
       url: /docs/patterns/status-labels
     - title: Strip
@@ -114,6 +112,11 @@
       url: /docs/patterns/tabs
     - title: Tooltips
       url: /docs/patterns/tooltips
+- heading: Patterns
+  ordering: alphabetical
+  subheadings:
+    - title: Split list
+      url: /docs/patterns/split-list
 - heading: Utilities
   ordering: alphabetical
   subheadings:
