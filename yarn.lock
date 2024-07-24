@@ -2569,6 +2569,11 @@ indent-string@^4.0.0:
   resolved "https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
+indent.js@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/indent.js/-/indent.js-0.3.5.tgz#e2fefa04043b7be69c33635dc9e0cfb9cc7c4d7f"
+  integrity sha512-wiTA5fEz0kc8tHzY6CSujl/k62WVNvTxAZzmPe5V7MYxRCeGGibPCIYWYBzPp/bcJh3CXUO/8qrTrO/x9s1i2Q==
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"

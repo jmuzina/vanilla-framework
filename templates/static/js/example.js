@@ -268,7 +268,7 @@
     var div = document.createElement('div');
     div.innerHTML = source;
     var style = div.querySelector('style');
-    return style ? style.innerHTML.trim() : null;
+    return style ? indent.css(style.innerHTML.trim()) : null;
   }
 
   function stripScriptsFromSource(source) {
@@ -279,14 +279,14 @@
     while (i--) {
       scripts[i].parentNode.removeChild(scripts[i]);
     }
-    return div.innerHTML.trim();
+    return indent.html(div.innerHTML.trim());
   }
 
   function getScriptFromSource(source) {
     var div = document.createElement('div');
     div.innerHTML = source;
     var script = div.querySelector('script');
-    return script ? script.innerHTML.trim() : null;
+    return script ? indent.js(script.innerHTML.trim()) : null;
   }
 
   function getExternalScriptsFromSource(source) {
