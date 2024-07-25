@@ -136,7 +136,12 @@ async function getPercyConfigURLs() {
     }
   }
 
-  return urls;
+  return urls.filter(
+    (url) =>
+      url.testCase === '/docs/examples/patterns/modal/footer' ||
+      url.testCase === '/docs/examples/patterns/side-navigation/combined' ||
+      url.testCase === '/docs/examples/patterns/grid/combined',
+  );
 }
 
 module.exports = async () => {
