@@ -130,7 +130,12 @@ async function getPercyConfigURLs() {
     });
   }
 
-  return urls;
+  return urls
+    .filter((url) => url.url.includes('split-list'))
+    .map((url) => ({
+      ...url,
+      widths: [url.widths[url.widths.length - 1]],
+    }));
 }
 
 module.exports = async () => {
