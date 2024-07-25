@@ -33,6 +33,9 @@ jobs:
       - name: Populate artifact directory
         run: |
           mkdir -p artifact
+          # Ensure the copied exist before copying
+          mkdir -p templates/docs/examples/
+          mkdir -p templates/_macros/
           cp -R templates/docs/examples/ templates/_macros/ scss/ artifact/.
         
       # Archive the PR number associated with this workflow since it won't be available in the base workflow context
