@@ -136,7 +136,7 @@ async function getPercyConfigURLs() {
     }
   }
 
-  return urls.slice(0, 10);
+  return urls;
 }
 
 module.exports = async () => {
