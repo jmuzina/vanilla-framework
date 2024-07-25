@@ -42,7 +42,7 @@ jobs:
           # artifact directory contains `scss/`, `examples/`, `macros/`, `pr_num.txt`, and `pr_head_sha.txt`. 
           # `/examples` and `macros/` must be moved to `templates/`.
           mv examples/ templates/docs/.
-          mv macros/* templates/_macros/
+          mv macros/ templates/_macros
 
       - name: Get PR data
         if: github.event.workflow_run.event=='pull_request'
