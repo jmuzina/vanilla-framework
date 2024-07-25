@@ -130,7 +130,7 @@ async function getPercyConfigURLs() {
       urls.push({
         url: snapshotUrl,
         name,
-        testCase: url.pathname,
+        testCase: url.pathname.replace(/standalone\//g, ''),
         widths: theme === 'light' ? widths : [widths[widths.length - 1]],
       });
     }
