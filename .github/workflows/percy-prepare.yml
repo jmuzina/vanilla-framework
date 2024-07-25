@@ -35,8 +35,13 @@ jobs:
           mkdir -p artifact
           # Ensure the copied exist before copying
           mkdir -p templates/docs/examples/
+          
+          # underscore-prefixed directories are ignored by GH artifacts so we need to copy to a non-prefixed directory
           mkdir -p templates/_macros/
-          cp -R templates/docs/examples/ templates/_macros/ scss/ artifact/.
+          mkdir -p templates/macros/
+          cp -R templates/_macros/* templates/macros/
+          cp -R templates/docs/examples/ templates/macros/ scss/ artifact/.
+          tree artifact
         
       # Archive the PR number associated with this workflow since it won't be available in the base workflow context
       # https://github.com/orgs/community/discussions/25220
