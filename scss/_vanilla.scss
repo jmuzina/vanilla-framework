@@ -92,6 +92,10 @@
 @import 'utilities_text-max-width';
 @import 'utilities_text-figures';
 
+* {
+  font-family: 'Noto Sans CaucAlban' !important;
+}
+
 // Include all the CSS
 @mixin vanilla {
   @include vf-base;
