@@ -112,6 +112,11 @@
       url: /docs/patterns/tabs
     - title: Tooltips
       url: /docs/patterns/tooltips
+- heading: Patterns
+  ordering: alphabetical
+  subheadings:
+    - title: Split list
+      url: /docs/patterns/split-list
 - heading: Utilities
   ordering: alphabetical
   subheadings:
