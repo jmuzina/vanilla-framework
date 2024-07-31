@@ -2,6 +2,7 @@ const {URL} = require('url');
 const snapshotsTest = require('../snapshots');
 
 const PORT = process.env.PORT || 8101;
+const THEMES = ['light', 'dark', 'paper'];
 
 /**
  * Combined examples that embed responsive examples.
@@ -13,27 +14,57 @@ test('Returns correct widths for snapshots, including additional breakpoint for 
   const snapshots = await snapshotsTest();
 
   const failedUrls = snapshots.filter((snapshot) => {
-    const snapshotPathFromExamplesDir = snapshot.url.replace(`http://localhost:${PORT}/docs/examples/`, '').replace(/standalone\//g, '');
+    const url = new URL(snapshot.url);
+    const snapshotPathFromExamplesDir = url.pathname.replace('/docs/examples/', '').replace(/standalone\//g, '');
+    const theme = url.searchParams.get('theme')?.toLowerCase()?.trim();
 
-    const hasThemeParam = new URL(snapshot.url).searchParams.has('theme');
-    let expectedWidths = new Set();
-    if (hasThemeParam) {
-      expectedWidths.add(1280);
-    } else {
+    // All urls must have a theme param
+    if (!theme) return true;
+
+    // All snapshots are captured at 1280px width
+    let expectedWidths = new Set([1280]);
+
+    if (theme === 'light') {
+      // Light snapshots captured at multiple breakpoints
       expectedWidths.add(375);
 
-      if (
+      const isResponsive =
         snapshot.url.includes('responsive') ||
         // Check if the snapshot is a combined example that embeds responsive examples
-        (snapshot.url.endsWith('combined') && RESPONSIVE_COMBINED_EXAMPLES.includes(snapshotPathFromExamplesDir))
-      ) {
+        (url.pathname.endsWith('combined') && RESPONSIVE_COMBINED_EXAMPLES.includes(snapshotPathFromExamplesDir));
+
+      if (isResponsive) {
+        // Responsive snapshots are also captured at 800px
         expectedWidths.add(800);
       }
     }
+
     expectedWidths = Array.from(expectedWidths).sort((a, b) => a - b);
 
     return JSON.stringify(snapshot.widths) !== JSON.stringify(expectedWidths);
   });
+  expect(failedUrls).toHaveLength(0);
+});
+
+test('Returned snapshots have only one url per theme', async () => {
+  const snapshots = await snapshotsTest();
+  const encountered = new Map();
+  snapshots.forEach((snapshot) => {
+    const url = new URL(snapshot.url);
+    const theme = url.searchParams.get('theme');
+    if (!encountered.has(url.pathname)) {
+      encountered.set(url.pathname, 0);
+    }
+    encountered.set(url.pathname, encountered.get(url.pathname) + 1);
+  });
+
+  const failedUrls = snapshots
+    .map((snapshot) => snapshot.url)
+    .filter((snapshotAbsoluteUrl) => {
+      const url = new URL(snapshotAbsoluteUrl);
+      return encountered.get(url.pathname) !== THEMES.length;
+    });
+
   expect(failedUrls).toHaveLength(0);
 });
 
