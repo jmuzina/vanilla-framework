@@ -1,0 +1,15 @@
+{% extends "_layouts/examples.html" %}
+{% from "_macros/quote-wrapper.jinja" import quote_wrapper %}
+
+{% block title %}Quote Wrapper / H4 Heading{% endblock %}
+{% block standalone_css %}patterns_all{% endblock %}
+
+{% block content %}
+
+{% call(slot) quote_wrapper()
+
+%}
+
+{% endcall -%}
+
+{% endblock %}
