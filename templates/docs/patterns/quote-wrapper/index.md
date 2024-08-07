@@ -12,7 +12,7 @@ A quote wrapper is a pattern used to prominently display a quotation alongside a
 The quote wrapper pattern is composed of the following elements:
 
 | Element                   | Description                                                                                 |
-| ------------------------- |---------------------------------------------------------------------------------------------|
+| ------------------------- | ------------------------------------------------------------------------------------------- |
 | Quote text (**required**) | Quote text                                                                                  |
 | Header                    | Header text & CTA. Useful for adding a title/link that describes all of a series of quotes. |
 | Logo                      | Logo to associate with the quote                                                            |
