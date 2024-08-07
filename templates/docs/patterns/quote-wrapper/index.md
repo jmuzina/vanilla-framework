@@ -28,12 +28,48 @@ For very short or succinct quotes, use H2-sized text to make the quote stand out
 View example of the quote wrapper pattern with a H2 text.
 </a></div>
 
+### Without signpost logo
+
+If the quote is not associated with a specific brand or entity, or no logo is available, the logo can be omitted.
+Set the second grid column in the quote row to start in the fourth column with <code>.col-start-large-4</code> to make up for
+the space that would normally be taken up by the signpost logo.
+
+<div class="embedded-example"><a href="/docs/examples/patterns/quote-wrapper/h2-no-logo" class="js-example">
+View example of the quote wrapper pattern with H2 text, without a signpost logo.
+</a></div>
+
+### Without citation
+
+When no citation is available or needed, the citation row can be omitted, and the quote body does not need to be wrapped in a nested grid.
+
+<div class="embedded-example"><a href="/docs/examples/patterns/quote-wrapper/h2-no-citation" class="js-example">
+View example of the quote wrapper pattern with H2 text, without a citation.
+</a></div>
+
 ## H4 Quote
 
 For longer quotes, use H4-sized text to maintain content balance.
 
 <div class="embedded-example"><a href="/docs/examples/patterns/quote-wrapper/h4" class="js-example">
 View example of the quote wrapper pattern with H4 text.
+</a></div>
+
+### Without signpost logo
+
+If the quote is not associated with a specific brand or entity, or no logo is available, the logo can be omitted.
+Set the second grid column in the quote row to start in the fourth column with <code>.col-start-large-4</code> to make up for
+the space that would normally be taken up by the signpost logo.
+
+<div class="embedded-example"><a href="/docs/examples/patterns/quote-wrapper/h4-no-logo" class="js-example">
+View example of the quote wrapper pattern with H2 text, without a signpost logo.
+</a></div>
+
+### Without citation
+
+When no citation is available or needed, the citation row can be omitted, and the quote body does not need to be wrapped in a nested grid.
+
+<div class="embedded-example"><a href="/docs/examples/patterns/quote-wrapper/h4-no-citation" class="js-example">
+View example of the quote wrapper pattern with H4 text, without a citation.
 </a></div>
 
 ## Import

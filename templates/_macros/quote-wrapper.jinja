@@ -1,7 +1,7 @@
 {#
   Params
   - heading_text (string) (optional): The text to be displayed as the heading
-  - quote_heading_level (int) (optional): The level of the heading (2 or 4)
+  - quote_heading_level (int) (optional): The heading level used for the quote text. Can be 2 or 4. Defaults to 2.
   - quote_text (string) (required): The text of the quote. The macro will surround it with quotes, so there is no need to quote it yourself.
   - citation_name (string) (optional): The name of the source being quoted
   - citation_title (string) (optional): The title of the source being quoted
@@ -96,8 +96,8 @@
     {% endif -%}
     {#- Skip to fourth column if the logo (which takes up first three columns) is missing -#}
     <div class="col-9{% if not has_logo %} col-start-large-4{% endif %}">
-      {% if has_citation %}
-        {#- When citation is present, we need nested grid to space them properly -#}
+      {% if has_citation -%}
+        <!-- When a citation is present, wrap the quote and citation in a nested grid to space them properly -->
         <div class="row">
           <div class="col-6">
             {{ _quote_body() }}
@@ -106,7 +106,8 @@
             {{ _citation_block() }}
           </div>
         </div>
-      {% else %}
+      {% else -%}
+        <!-- When no citation is present, display quote body without a nested grid -->
         {{ _quote_body() }}
       {% endif -%}
 

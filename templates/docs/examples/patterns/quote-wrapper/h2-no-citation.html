@@ -1,0 +1,35 @@
+{% extends "_layouts/examples.html" %}
+{% from "_macros/quote-wrapper.jinja" import quote_wrapper %}
+
+{% block title %}Quote Wrapper / H2 Quote without citation{% endblock %}
+{% block standalone_css %}patterns_all{% endblock %}
+
+{% block content %}
+
+{% call(slot) quote_wrapper(
+  heading_text="What our customers say",
+  quote_heading_level=2,
+  quote_text="This is a company where intelligence and learning are highly valued."
+) -%}
+
+{%- if slot == 'heading_cta' -%}
+  <a href="#">All the success stories ›</a>
+{%- endif -%}
+
+{%- if slot == 'logo' -%}
+  <img src="https://assets.ubuntu.com/v1/82122de1-rexroth_bosch_logo.png" width="178" alt="Rexroth Bosch Logo">
+{%- endif -%}
+
+{%- if slot == 'cta' -%}
+  <a href="#">Download the full case study ›</a>
+{%- endif -%}
+
+{%- if slot == 'image' -%}
+  <div class="p-image-container--cinematic is-cover">
+    <img class="p-image-container__image" src="https://assets.ubuntu.com/v1/2bd4f097-rexroth-core.jpg" alt="Rexroth Core">
+  </div>
+{%- endif -%}
+
+{% endcall -%}
+
+{% endblock %}
