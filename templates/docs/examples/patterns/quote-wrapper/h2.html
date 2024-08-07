@@ -1,14 +1,14 @@
 {% extends "_layouts/examples.html" %}
 {% from "_macros/quote-wrapper.jinja" import quote_wrapper %}
 
-{% block title %}Quote Wrapper / H2 Heading{% endblock %}
+{% block title %}Quote Wrapper / H2 Quote{% endblock %}
 {% block standalone_css %}patterns_all{% endblock %}
 
 {% block content %}
 
 {% call(slot) quote_wrapper(
   heading_text="What our customers say",
-  heading_level=2,
+  quote_heading_level=2,
   quote_text="This is a company where intelligence and learning are highly valued.",
   citation_name="Justin Boitano",
   citation_title="Vice President and General Manager of Customer and Ecosystem Enabling Division, Intel's Network and Edge Solutions Group"
