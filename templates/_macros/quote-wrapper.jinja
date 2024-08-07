@@ -36,7 +36,7 @@
     {% set quote_heading_level = 2 %}
   {% endif %}
 
-  {% macro _quote_body() %}
+  {%- macro _quote_body() -%}
     <div class="p-section--shallow">
       <blockquote class="p-pull-quote u-no-margin--top u-no-padding--left">
         <h{{ quote_heading_level }} class="u-no-padding--top">
@@ -46,39 +46,46 @@
         </h{{ quote_heading_level }}>
       </blockquote>
     </div>
-  {% endmacro %}
+  {%- endmacro %}
 
-  {% macro _citation_block() %}
-    {% if has_citation %}
+  {%- macro _citation_block() -%}
+    {%- if has_citation -%}
+      <!--Optional citation block-->
       <div class="p-section--shallow">
         <h5 class="u-no-margin--bottom u-no-padding--top">{{ citation_name }}</h5>
-        {% if has_citation_title %}
+        {%- if has_citation_title %}
+          <!--Optional citation source title-->
           <p class="u-text--muted u-no-padding--top">{{ citation_title }}</p>
-        {% endif %}
+        {%- endif -%}
       </div>
-    {% endif %}
-  {% endmacro %}
+    {%- endif -%}
+  {%- endmacro %}
 
   {% if has_heading_row %}
+    <!--Optional heading -->
     <div class="row">
       <hr class="p-rule--highlight">
-      {% if has_heading_text %}
+      {%- if has_heading_text %}
+        <!--Optional heading text-->
         <div class="col-3 col-medium-3">
           <p class="p-muted-heading">{{ heading_text }}</p>
         </div>
-      {% endif %}
-      {% if has_heading_cta %}
+      {%- endif -%}
+
+      {%- if has_heading_cta %}
+        <!--Optional heading CTA -->
         <div class="col-3 col-medium-3 col-start-large-10 col-start-medium-5">
-          {# TODO need a borderless variant of CTA block otherwise there is a top border here #}
+          {#- TODO need a borderless variant of CTA block otherwise there is a top border here -#}
           <div class="p-cta-block" style="border: none">
            {{ heading_cta_content }}
           </div>
         </div>
-      {% endif %}
+      {% endif -%}
     </div>
-  {% endif %}
+  {% endif -%}
   <div class="row">
-    {% if has_logo %}
+    {% if has_logo -%}
+      <!--Optional signpost logo-->
       <div class="col-3">
         <div class="row">
           <div class="col-2">
@@ -86,10 +93,11 @@
           </div>
         </div>
       </div>
-    {% endif %}
+    {% endif -%}
+    {#- Skip to fourth column if the logo (which takes up first three columns) is missing -#}
     <div class="col-9{% if not has_logo %} col-start-large-4{% endif %}">
       {% if has_citation %}
-        {# When citation is present, we need nested grid to space them properly #}
+        {#- When citation is present, we need nested grid to space them properly -#}
         <div class="row">
           <div class="col-6">
             {{ _quote_body() }}
@@ -100,23 +108,27 @@
         </div>
       {% else %}
         {{ _quote_body() }}
-      {% endif %}
+      {% endif -%}
 
-      {% if has_cta or has_image %}
+      {%- if has_cta or has_image -%}
+        <!-- Optional CTA and/or image block -->
         <div class="p-section--shallow">
           <div class="row">
             <hr class="p-rule--muted">
-            {% if has_cta %}
+            {%- if has_cta %}
+              <!-- Optional CTA block-->
               <div class="p-cta-block">
                 {{ cta_content }}
               </div>
-            {% endif %}
-            {% if has_image %}
+            {% endif -%}
+
+            {% if has_image -%}
+              <!-- Optional image block -->
               {{ image_content }}
-            {% endif %}
+            {% endif -%}
           </div>
         </div>
-      {% endif %}
+      {% endif -%}
     </div>
   </div>
 {% endmacro -%}
