@@ -261,6 +261,16 @@
   setupSideNavigationExpands();
 })();
 
+(function () {
+  function setupPreCodeHighlights() {
+    if (!Prism) return;
+
+    document.querySelectorAll('pre code').forEach(Prism.highlightAllUnder);
+  }
+
+  document.addEventListener('DOMContentLoaded', setupPreCodeHighlights)
+})();
+
 // scroll active side navigation item into view (without scrolling whole page)
 (function () {
   var sideNav = document.querySelector('.p-side-navigation');
