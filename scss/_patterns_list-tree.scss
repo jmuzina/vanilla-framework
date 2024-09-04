@@ -53,10 +53,21 @@
       &[aria-hidden='false'] {
         display: block;
       }
+    }
+  }
 
-      &[aria-hidden='false']::before {
-        @extend %list-tree-expand-icon;
-      }
+  .p-list-tree.is-static {
+    // Force the entire tree to be visible
+    display: block;
+    .p-list-tree__toggle::before {
+      @extend %list-tree-collapse-icon;
+    }
+  }
+
+  // Static list trees do not have expand icons (they are always expanded)
+  .p-list-tree:not(.is-static) {
+    &[aria-hidden='false']::before {
+      @extend %list-tree-expand-icon;
     }
   }
 
@@ -88,17 +99,6 @@
     &[aria-expanded='true'],
     &:hover {
       background: $colors--theme--background-default;
-    }
-  }
-
-  // MAAS static tree styling (`.p-list-tree--static`)
-  .p-list-tree/*--static*/ {
-    // Force the entire tree to be visible
-    display: block !important;
-
-    // Hide the collapse button
-    .p-list-tree__toggle::before {
-        @extend %list-tree-expand-icon;
     }
   }
 }
