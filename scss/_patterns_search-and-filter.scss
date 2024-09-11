@@ -136,10 +136,6 @@
         -webkit-appearance: none; // stylelint-disable-line property-no-vendor-prefix
       }
     }
-
-    .p-chip + .p-search-and-filter__box {
-      margin-left: $sph--small;
-    }
   }
 }
 
