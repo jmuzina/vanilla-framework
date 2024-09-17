@@ -53,22 +53,18 @@
   }
 
   %vf-row-small {
-    @extend %vf-row-base;
     @include vf-b-grid-template(small, $grid-columns-small);
   }
 
   %vf-row-medium-4 {
-    @extend %vf-row-base;
     @include vf-b-grid-template(default, $grid-columns-medium-new, $threshold-4-small-4-med-col);
   }
 
   %vf-row-medium-6 {
-    @extend %vf-row-base;
     @include vf-b-grid-template(default, $grid-columns-medium, $threshold-4-6-col);
   }
 
   %vf-row-large {
-    @extend %vf-row-base;
     @include vf-b-grid-template(default, $grid-columns, $threshold-6-12-col);
   }
 
