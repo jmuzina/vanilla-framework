@@ -15,6 +15,7 @@
 }
 
 @mixin vf-grid-column-reordering($label, $col-count, $reset: false) {
+  // todo julie implement the reordering here for the 4 column medium variant
   @for $i from 1 through $col-count {
     .row [class*='#{$grid-column-prefix}'].#{$grid-column-prefix}start-#{$label}-#{$i} {
       @if $reset {
@@ -73,7 +74,8 @@
   }
 
   @for $i from 1 through $grid-columns {
-    .#{$grid-large-col-prefix}#{$i} {
+    .#{$grid-large-col-prefix}#{$i},
+    .#{$grid-large-col-prefix-new}#{$i} {
       @extend %span-full-grid-on-mobile;
       @extend %display-block;
     }
@@ -82,6 +84,13 @@
   // col-small-X classes define grid for small screen
   @for $i from $grid-columns-small through 1 {
     .#{$grid-small-col-prefix}#{$i} {
+      @extend %display-block;
+      @include vf-grid-column($i);
+
+      width: 100%;
+    }
+
+    .#{$grid-small-col-prefix-new}#{$i} {
       @extend %display-block;
       @include vf-grid-column($i);
 
@@ -114,7 +123,7 @@
     .#{$grid-large-col-prefix}#{$i} {
       @extend %span-full-grid-on-tablet;
     }
-    .#{$grid-medium-col-prefix-new}#{$i} {
+    .#{$grid-large-col-prefix-new}#{$i} {
       @extend %span-full-grid-on-tablet-new;
     }
   }
@@ -172,6 +181,16 @@
     @for $i from $grid-columns through 1 {
       // set col-* to span respective number of columns on desktop
       .#{$grid-large-col-prefix}#{$i} {
+        // on smaller screens let them display full width one under another
+        @include vf-grid-column($i);
+      }
+    }
+  }
+
+  @media (min-width: $threshold-4-med-12-col) {
+    @for $i from $grid-columns through 1 {
+      // set col-* to span respective number of columns on desktop
+      .#{$grid-large-col-prefix-new}#{$i} {
         // on smaller screens let them display full width one under another
         @include vf-grid-column($i);
       }

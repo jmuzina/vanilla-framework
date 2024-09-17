@@ -16,9 +16,11 @@ $threshold-4-med-12-col: $breakpoint-large !default;
 $grid-column-prefix: 'col-' !default;
 $grid-column-prefix-new: 'grid-#{$grid-column-prefix}' !default;
 $grid-small-col-prefix: '#{$grid-column-prefix}small-' !default;
+$grid-small-col-prefix-new: 'grid-#{$grid-column-prefix}small-' !default;
 $grid-medium-col-prefix: '#{$grid-column-prefix}medium-' !default;
 $grid-medium-col-prefix-new: '#{$grid-column-prefix-new}medium-' !default;
 $grid-large-col-prefix: #{$grid-column-prefix} !default;
+$grid-large-col-prefix-new: #{$grid-column-prefix-new} !default;
 
 $grid-gutter-widths: (
   small: $sp-unit * 3,
