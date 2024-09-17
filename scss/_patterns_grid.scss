@@ -99,7 +99,7 @@
   }
 
   %span-full-grid-on-tablet-new {
-    @media (min-width: $threshold-4-6-col) {
+    @media (min-width: $threshold-4-small-4-med-col) {
       grid-column: auto / span $grid-columns-medium-new;
     }
   }
@@ -128,6 +128,9 @@
         width: 100%;
       }
     }
+  }
+
+  @media (min-width: $threshold-4-small-4-med-col) {
     @for $i from $grid-columns-medium-new through 1 {
       .#{$grid-medium-col-prefix-new}#{$i} {
         @include vf-grid-column($i);
@@ -179,7 +182,7 @@
   $offsets: (
     (small, 0, $threshold-4-6-col, $grid-columns-small),
     (medium, $threshold-4-6-col, $threshold-6-12-col, $grid-columns-medium),
-    (medium-new, $threshold-4-6-col, $threshold-6-12-col, $grid-columns-medium-new),
+    (medium-new, $threshold-4-small-4-med-col, $threshold-4-med-12-col, $grid-columns-medium-new),
     (large, $threshold-6-12-col, false, $grid-columns)
   );
 
