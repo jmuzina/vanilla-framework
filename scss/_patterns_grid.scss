@@ -83,13 +83,7 @@
 
   // col-small-X classes define grid for small screen
   @for $i from $grid-columns-small through 1 {
-    .#{$grid-small-col-prefix}#{$i} {
-      @extend %display-block;
-      @include vf-grid-column($i);
-
-      width: 100%;
-    }
-
+    .#{$grid-small-col-prefix}#{$i},
     .#{$grid-small-col-prefix-new}#{$i} {
       @extend %display-block;
       @include vf-grid-column($i);
