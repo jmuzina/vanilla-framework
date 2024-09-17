@@ -5,6 +5,29 @@
   padding-right: 0;
 }
 
+// Apply grid properties for a given breakpoint
+@mixin vf-b-grid-template-impl($breakpoint, $columns) {
+  grid-gap: 0 map-get($grid-gutter-widths, $breakpoint);
+  grid-template-columns: repeat($columns, minmax(0, 1fr));
+
+  & > * {
+    grid-column-end: span$columns;
+  }
+}
+
+// Apply grid properties for a given breakpoint. If a min_width is provided, wrap the properties in a media query
+@mixin vf-b-grid-template($breakpoint, $columns, $min_width: null) {
+  @supports (display: grid) {
+    @if $min_width {
+      @media (min-width: $min_width) {
+        @include vf-b-grid-template-impl($breakpoint, $columns);
+      }
+    } @else {
+      @include vf-b-grid-template-impl($breakpoint, $columns);
+    }
+  }
+}
+
 @mixin vf-b-grid-definitions {
   %display-block {
     // make columns explicitly display:block; the use of a placeholder is to ensure the rule appears only once in the compiled css
@@ -31,50 +54,22 @@
 
   %vf-row-small {
     @extend %vf-row-base;
-    @supports (display: grid) {
-      grid-gap: 0 map-get($grid-gutter-widths, small);
-      grid-template-columns: repeat($grid-columns-small, minmax(0, 1fr));
-
-      & > * {
-        grid-column-end: span $grid-columns-small;
-      }
-    }
+    @include vf-b-grid-template(small, $grid-columns-small);
   }
 
   %vf-row-medium-4 {
     @extend %vf-row-base;
-    @media (min-width: $threshold-4-small-4-med-col) {
-      grid-gap: 0 map-get($grid-gutter-widths, default);
-      grid-template-columns: repeat($grid-columns-medium-new, minmax(0, 1fr));
-
-      & > * {
-        grid-column-end: span $grid-columns-medium-new;
-      }
-    }
+    @include vf-b-grid-template(default, $grid-columns-medium-new, $threshold-4-small-4-med-col);
   }
 
   %vf-row-medium-6 {
     @extend %vf-row-base;
-    @media (min-width: $threshold-4-6-col) {
-      grid-gap: 0 map-get($grid-gutter-widths, default);
-      grid-template-columns: repeat($grid-columns-medium, minmax(0, 1fr));
-
-      & > * {
-        grid-column-end: span $grid-columns-medium;
-      }
-    }
+    @include vf-b-grid-template(default, $grid-columns-medium, $threshold-4-6-col);
   }
 
   %vf-row-large {
     @extend %vf-row-base;
-    @media (min-width: $threshold-6-12-col) {
-      grid-gap: 0 map-get($grid-gutter-widths, default);
-      grid-template-columns: repeat($grid-columns, minmax(0, 1fr));
-
-      & > * {
-        grid-column-end: span $grid-columns;
-      }
-    }
+    @include vf-b-grid-template(default, $grid-columns, $threshold-6-12-col);
   }
 
   %vf-row-base {
