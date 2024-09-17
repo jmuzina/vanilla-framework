@@ -29,43 +29,88 @@
     }
   }
 
-  %vf-row {
-    @extend %fixed-width-container;
-
+  %vf-row-small {
+    @extend %vf-row-base;
     @supports (display: grid) {
-      display: grid;
       grid-gap: 0 map-get($grid-gutter-widths, small);
       grid-template-columns: repeat($grid-columns-small, minmax(0, 1fr));
-      grid-template-rows: auto;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: $grid-max-width;
 
       & > * {
         grid-column-end: span $grid-columns-small;
       }
+    }
+  }
 
+  %vf-row-medium-4 {
+    @extend %vf-row-base;
+    @media (min-width: $threshold-4-6-col) {
+      grid-gap: 0 map-get($grid-gutter-widths, default);
+      grid-template-columns: repeat($grid-columns-medium-new, minmax(0, 1fr));
+
+      & > * {
+        grid-column-end: span $grid-columns-medium-new;
+      }
+    }
+  }
+
+  %vf-row-medium-6 {
+    @extend %vf-row-base;
+    @media (min-width: $threshold-4-6-col) {
+      grid-gap: 0 map-get($grid-gutter-widths, default);
+      grid-template-columns: repeat($grid-columns-medium, minmax(0, 1fr));
+
+      & > * {
+        grid-column-end: span $grid-columns-medium;
+      }
+    }
+  }
+
+  %vf-row-large {
+    @extend %vf-row-base;
+    @media (min-width: $threshold-6-12-col) {
+      grid-gap: 0 map-get($grid-gutter-widths, default);
+      grid-template-columns: repeat($grid-columns, minmax(0, 1fr));
+
+      & > * {
+        grid-column-end: span $grid-columns;
+      }
+    }
+  }
+
+  %vf-row-base {
+    @extend %fixed-width-container;
+
+    @supports (display: grid) {
+      display: grid;
+      grid-template-rows: auto;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: $grid-max-width;
+    }
+  }
+
+  %vf-row {
+    @extend %vf-row-base;
+    @extend %vf-row-small;
+    @extend %vf-row-medium-6;
+    @extend %vf-row-large;
+
+    @supports (display: grid) {
       [class*='#{$grid-column-prefix}'] {
         grid-column-start: auto;
       }
+    }
+  }
 
-      // set static gutter width per breakpoint
-      @media (min-width: $threshold-4-6-col) {
-        grid-gap: 0 map-get($grid-gutter-widths, default);
-        grid-template-columns: repeat($grid-columns-medium, minmax(0, 1fr));
+  %vf-row-new {
+    @extend %vf-row-base;
+    @extend %vf-row-small;
+    @extend %vf-row-medium-4;
+    @extend %vf-row-large;
 
-        & > * {
-          grid-column-end: span $grid-columns-medium;
-        }
-      }
-
-      @media (min-width: $threshold-6-12-col) {
-        grid-gap: 0 map-get($grid-gutter-widths, default);
-        grid-template-columns: repeat($grid-columns, minmax(0, 1fr));
-
-        & > * {
-          grid-column-end: span $grid-columns;
-        }
+    @supports (display: grid) {
+      [class*='#{$grid-column-prefix-new}'] {
+        grid-column-start: auto;
       }
     }
   }

@@ -47,6 +47,10 @@
     @extend %vf-row;
   }
 
+  .grid-row {
+    @extend %vf-row-new;
+  }
+
   // mobile grid
 
   // by default medium and large screen col classes should span full width on mobile (to match block level element behaviour)
@@ -56,6 +60,13 @@
 
   @for $i from 1 through $grid-columns-medium {
     .#{$grid-medium-col-prefix}#{$i} {
+      @extend %span-full-grid-on-mobile;
+      @extend %display-block;
+    }
+  }
+
+  @for $i from 1 through $grid-columns-medium-new {
+    .#{$grid-medium-col-prefix-new}#{$i} {
       @extend %span-full-grid-on-mobile;
       @extend %display-block;
     }
@@ -87,6 +98,12 @@
     }
   }
 
+  %span-full-grid-on-tablet-new {
+    @media (min-width: $threshold-4-6-col) {
+      grid-column: auto / span $grid-columns-medium-new;
+    }
+  }
+
   @for $i from 1 through $grid-columns-small {
     .#{$grid-small-col-prefix}#{$i} {
       @extend %span-full-grid-on-tablet;
@@ -97,12 +114,22 @@
     .#{$grid-large-col-prefix}#{$i} {
       @extend %span-full-grid-on-tablet;
     }
+    .#{$grid-medium-col-prefix-new}#{$i} {
+      @extend %span-full-grid-on-tablet-new;
+    }
   }
 
   // col-medium-X classes define grid for medium screens
   @media (min-width: $threshold-4-6-col) {
     @for $i from $grid-columns-medium through 1 {
       .#{$grid-medium-col-prefix}#{$i} {
+        @include vf-grid-column($i);
+
+        width: 100%;
+      }
+    }
+    @for $i from $grid-columns-medium-new through 1 {
+      .#{$grid-medium-col-prefix-new}#{$i} {
         @include vf-grid-column($i);
 
         width: 100%;
@@ -131,6 +158,12 @@
     }
   }
 
+  @for $i from 1 through $grid-columns-medium-new {
+    .#{$grid-medium-col-prefix-new}#{$i} {
+      @extend %span-full-grid-on-desktop;
+    }
+  }
+
   // col-X class names define grid on large/desktop screens
   @media (min-width: $threshold-6-12-col) {
     @for $i from $grid-columns through 1 {
@@ -146,6 +179,7 @@
   $offsets: (
     (small, 0, $threshold-4-6-col, $grid-columns-small),
     (medium, $threshold-4-6-col, $threshold-6-12-col, $grid-columns-medium),
+    (medium-new, $threshold-4-6-col, $threshold-6-12-col, $grid-columns-medium-new),
     (large, $threshold-6-12-col, false, $grid-columns)
   );
 
@@ -193,6 +227,7 @@
 
   // Common grid patterns
   $col-50-medium: calc($grid-columns-medium / 2);
+  $col-50-medium-new: calc($grid-columns-medium-new / 2);
 
   $col-25: calc($grid-columns / 4);
   $col-50: calc($grid-columns / 2);

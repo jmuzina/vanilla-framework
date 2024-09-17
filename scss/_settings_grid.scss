@@ -6,12 +6,16 @@ $grid-max-width: 80rem !default;
 $grid-columns-small: 4 !default;
 $grid-columns-medium: 6 !default;
 $grid-columns: 12 !default;
+$grid-columns-medium-new: 4 !default; // New variable for 4 columns on medium screens
+
 $threshold-4-6-col: $breakpoint-small !default;
 $threshold-6-12-col: $breakpoint-large !default;
 
 $grid-column-prefix: 'col-' !default;
+$grid-column-prefix-new: 'grid-#{$grid-column-prefix}' !default;
 $grid-small-col-prefix: '#{$grid-column-prefix}small-' !default;
 $grid-medium-col-prefix: '#{$grid-column-prefix}medium-' !default;
+$grid-medium-col-prefix-new: '#{$grid-column-prefix-new}medium-' !default;
 $grid-large-col-prefix: #{$grid-column-prefix} !default;
 
 $grid-gutter-widths: (
