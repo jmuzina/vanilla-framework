@@ -14,10 +14,9 @@
   }
 }
 
-@mixin vf-grid-column-reordering($label, $col-count, $reset: false) {
-  // todo julie implement the reordering here for the 4 column medium variant
+@mixin vf-grid-column-reordering($label, $col-count, $reset: false, $col-prefix: $grid-column-prefix, $row-class: 'row') {
   @for $i from 1 through $col-count {
-    .row [class*='#{$grid-column-prefix}'].#{$grid-column-prefix}start-#{$label}-#{$i} {
+    .#{$row-class} [class*='#{$col-prefix}'].#{$col-prefix}start-#{$label}-#{$i} {
       @if $reset {
         grid-column-start: initial;
       } @else {
@@ -25,7 +24,7 @@
       }
     }
 
-    .#{$grid-column-prefix}order-#{$label}-#{$i} {
+    .#{$col-prefix}order-#{$label}-#{$i} {
       @if $reset {
         order: initial;
       } @else {
@@ -204,15 +203,18 @@
   @each $label, $breakpoint-min, $breakpoint-reset, $col-count in $offsets {
     @if $breakpoint-min == 0 {
       @include vf-grid-column-reordering($label, $col-count);
+      @include vf-grid-column-reordering($label, $col-count, $col-prefix: $grid-column-prefix-new, $row-class: 'grid-row');
     } @else {
       @media (min-width: #{$breakpoint-min}) {
         @include vf-grid-column-reordering($label, $col-count);
+        @include vf-grid-column-reordering($label, $col-count, $col-prefix: $grid-column-prefix-new, $row-class: 'grid-row');
       }
     }
 
     @if $breakpoint-reset {
       @media (min-width: #{$breakpoint-reset}) {
         @include vf-grid-column-reordering($label, $col-count, $reset: true);
+        @include vf-grid-column-reordering($label, $col-count, $reset: true, $col-prefix: $grid-column-prefix-new, $row-class: 'grid-row');
       }
     }
   }

@@ -3,11 +3,19 @@
     {% for column in columns %}
       {% set column_classes = [] %}
       {% for breakpoint in column.breakpoints %}
-        {% set class_name = col_class_prefix + breakpoint.name + '-' + (breakpoint.num_columns | string) %}
+        {% set span_class_name = col_class_prefix + breakpoint.name + '-' + (breakpoint.num_columns | string) %}
         {% if breakpoint.name == 'large' %}
-          {% set class_name = class_name | replace('-large', '') %}
+          {% set span_class_name = span_class_name | replace('-large', '') %}
         {% endif %}
-        {{ column_classes.append(class_name) or "" }}
+        {{ column_classes.append(span_class_name) or "" }}
+        {% if 'start' in breakpoint and breakpoint.start > 0 %}
+          {% set offset_class_name = col_class_prefix + 'start-' + breakpoint.name + '-' + (breakpoint.start | string) %}
+          {{ column_classes.append(offset_class_name) or "" }}
+        {% endif %}
+        {% if 'order' in breakpoint and breakpoint.order > 0 %}
+          {% set order_class_name = col_class_prefix + 'order-' + breakpoint.name + '-' + (breakpoint.order | string) %}
+          {{ column_classes.append(order_class_name) or "" }}
+        {% endif %}
       {% endfor %}
       <div class="{{ column_classes | join(' ') }}">.{{ column_classes | join('.') }}</div>
     {% endfor %}
