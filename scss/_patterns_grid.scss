@@ -34,6 +34,27 @@
   }
 }
 
+@mixin vf-p-grid-row-50-50(
+  $col-class: 'col',
+  $cols-per-item-on-small: $grid-columns-small,
+  $medium-breakpoint: $threshold-4-6-col,
+  $cols-per-item-on-medium: $col-50-medium,
+  $large-breakpoint: $threshold-6-12-col,
+  $cols-per-item-on-large: $col-50
+) {
+  > .#{$col-class} {
+    @include vf-grid-column($cols-per-item-on-small);
+
+    @media (min-width: $medium-breakpoint) {
+      @include vf-grid-column($cols-per-item-on-medium);
+    }
+
+    @media (min-width: $large-breakpoint) {
+      @include vf-grid-column($cols-per-item-on-large);
+    }
+  }
+}
+
 @mixin vf-p-grid {
   // FIXME: this should be removed from framework SCSS
   // (see https://github.com/canonical/vanilla-framework/issues/3199)
@@ -245,29 +266,22 @@
     }
   }
 
-  // Common grid patterns
-  $col-50-medium: calc($grid-columns-medium / 2);
-  $col-50-medium-new: calc($grid-columns-medium-new / 2);
-
-  $col-25: calc($grid-columns / 4);
-  $col-50: calc($grid-columns / 2);
-  $col-75: calc(($grid-columns / 4) * 3);
-
   // 50/50 split on medium and large screens
   .row--50-50 {
     @extend %vf-row;
 
-    > .col {
-      @include vf-grid-column($grid-columns-small);
+    @include vf-p-grid-row-50-50;
+  }
 
-      @media (min-width: $threshold-4-6-col) {
-        @include vf-grid-column($col-50-medium);
-      }
+  .grid-row--50-50 {
+    @extend %vf-row-new;
 
-      @media (min-width: $threshold-6-12-col) {
-        @include vf-grid-column($col-50);
-      }
-    }
+    @include vf-p-grid-row-50-50(
+      $col-class: 'grid-col',
+      $medium-breakpoint: $threshold-4-small-4-med-col,
+      $cols-per-item-on-medium: $col-50-medium-new,
+      $large-breakpoint: $threshold-4-med-12-col
+    );
   }
 
   // 25/75 split on medium and large screens

@@ -32,6 +32,14 @@ $grid-margin-widths: (
   default: $sp-unit * 3,
 ) !default;
 
+// Common grid patterns
+$col-50-medium: calc($grid-columns-medium / 2);
+$col-50-medium-new: calc($grid-columns-medium-new / 2);
+
+$col-25: calc($grid-columns / 4);
+$col-50: calc($grid-columns / 2);
+$col-75: calc(($grid-columns / 4) * 3);
+
 // Grid breakout template
 $l-fluid-breakout-max-width: $grid-max-width !default;
 $l-fluid-breakout-aside-width: 14rem !default;
