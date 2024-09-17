@@ -1,3 +1,9 @@
+- version: 4.17.0
+  features:
+    - component: Grid
+      url: /docs/patterns/grid
+      status: Updated
+      notes: We've added the new <code>.grid-row</code> and <code>.grid-col</code> classes, which create a 4-column grid on medium screens.
 - version: 4.16.0
   features:
     - component: CTA Block / Borderless
