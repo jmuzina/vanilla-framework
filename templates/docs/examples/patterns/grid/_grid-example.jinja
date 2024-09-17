@@ -2,16 +2,14 @@
   <div class="{{ row_class }}">
     {% for column in columns %}
       {% set column_classes = [] %}
-      {% set column_text_parts = [] %}
       {% for breakpoint in column.breakpoints %}
         {% set class_name = col_class_prefix + breakpoint.name + '-' + (breakpoint.num_columns | string) %}
         {% if breakpoint.name == 'large' %}
           {% set class_name = class_name | replace('-large', '') %}
         {% endif %}
         {{ column_classes.append(class_name) or "" }}
-        {{ column_text_parts.append((breakpoint.num_columns | string) + ' on ' + breakpoint.name) or "" }}
       {% endfor %}
-      <div class="{{ column_classes | join(' ') }}">{{ column_text_parts | join(', ') }}</div>
+      <div class="{{ column_classes | join(' ') }}">.{{ column_classes | join('.') }}</div>
     {% endfor %}
   </div>
 {%- endmacro -%}
