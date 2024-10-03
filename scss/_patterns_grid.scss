@@ -39,6 +39,95 @@
   }
 }
 
+@mixin vf-common-grid-override-medium($cols) {
+  @supports (display: grid) {
+    @media ($threshold-4-small-4-med-col <= width < $threshold-4-med-12-col) {
+      & > .#{$grid-row-class} {
+        --vf-grid-columns: #{$cols};
+      }
+    }
+  }
+}
+
+@mixin vf-common-grid-75-25-override-medium($split: false) {
+  @if ($split) {
+    &:nth-of-type(1) {
+      @include vf-common-grid-override-medium($grid-columns-medium-4 / 4 * 3);
+    }
+
+    &:nth-of-type(2) {
+      @include vf-common-grid-override-medium($grid-columns-medium-4 / 4);
+    }
+
+    &:only-of-type {
+      @include vf-common-grid-override-medium($grid-columns-medium-4);
+    }
+  } @else {
+    @include vf-common-grid-override-medium($grid-columns-medium-4);
+  }
+}
+
+@mixin vf-common-grid-25-75-override-medium($split: false) {
+  @if ($split) {
+    &:nth-of-type(1) {
+      @include vf-common-grid-override-medium($grid-columns-medium-4 / 4);
+    }
+
+    &:nth-of-type(2) {
+      @include vf-common-grid-override-medium($grid-columns-medium-4 / 4 * 3);
+    }
+
+    &:only-of-type {
+      @include vf-common-grid-override-medium($grid-columns-medium-4);
+    }
+  } @else {
+    @include vf-common-grid-override-medium($grid-columns-medium-4);
+  }
+}
+
+@mixin vf-common-grid-50-50-override-medium($split: false) {
+  @if ($split) {
+    @include vf-common-grid-override-medium($grid-columns-medium-4 / 2);
+
+    &:only-of-type {
+      @include vf-common-grid-override-medium($grid-columns-medium-4);
+    }
+  } @else {
+    @include vf-common-grid-override-medium($grid-columns-medium-4);
+  }
+}
+
+@mixin vf-common-grid-25-25-50-override-medium($split: false) {
+  @if ($split) {
+    &:nth-of-type(1),
+    &:nth-of-type(2) {
+      @include vf-common-grid-override-medium($grid-columns-medium-4 / 4);
+    }
+
+    &:nth-of-type(3) {
+      @include vf-common-grid-override-medium($grid-columns-medium-4 / 2);
+    }
+
+    &:only-of-type {
+      @include vf-common-grid-override-medium($grid-columns-medium-4);
+    }
+  } @else {
+    @include vf-common-grid-override-medium($grid-columns-medium-4);
+  }
+}
+
+@mixin vf-common-grid-25-25-25-25-override-medium($split: false) {
+  @if ($split) {
+    @include vf-common-grid-override-medium($grid-columns-medium-4 / 4);
+
+    &:only-of-type {
+      @include vf-common-grid-override-medium($grid-columns-medium-4);
+    }
+  } @else {
+    @include vf-common-grid-override-medium($grid-columns-medium-4);
+  }
+}
+
 // span full width on some breakpoint (to match block level element behaviour)
 @mixin vf-grid-span-full-grid($min-width: None) {
   @if $min-width == None {
@@ -257,6 +346,8 @@
       @media (min-width: $threshold-6-12-col) {
         @include vf-grid-column($col-50);
       }
+
+      @include vf-common-grid-50-50-override-medium($split: true);
     }
   }
 
@@ -297,6 +388,8 @@
           @include vf-grid-column($col-75);
         }
       }
+
+      @include vf-common-grid-25-75-override-medium($split: true);
     }
   }
 
@@ -308,6 +401,8 @@
       @media ($threshold-4-small-4-med-col <= width < $threshold-4-med-12-col) {
         @include vf-grid-column($col-50-medium-4);
       }
+
+      @include vf-common-grid-50-50-override-medium($split: true);
     }
   }
 
@@ -329,6 +424,8 @@
           @include vf-grid-column($grid-columns-medium-4);
         }
       }
+
+      @include vf-common-grid-25-75-override-medium($split: true);
     }
   }
 
@@ -340,11 +437,13 @@
       @media (min-width: $threshold-4-med-12-col) {
         @include vf-grid-column($col-50);
       }
+
+      @include vf-common-grid-50-50-override-medium;
     }
   }
 
   .#{$grid-row-class}--25-75-on-large {
-    @extend %vf-row-default-common-pattern;
+    @extend %vf-row-default;
 
     > .col {
       @media (min-width: $threshold-4-med-12-col) {
@@ -362,6 +461,8 @@
           @include vf-grid-column($col-75);
         }
       }
+
+      @include vf-common-grid-25-75-override-medium;
     }
   }
 
@@ -396,6 +497,8 @@
           @include vf-grid-column($col-25);
         }
       }
+
+      @include vf-common-grid-75-25-override-medium($split: true);
     }
   }
 
@@ -417,6 +520,8 @@
           @include vf-grid-column($grid-columns-medium-4);
         }
       }
+
+      @include vf-common-grid-75-25-override-medium($split: true);
     }
   }
 
@@ -462,6 +567,8 @@
           @include vf-grid-column($col-50);
         }
       }
+
+      @include vf-common-grid-25-25-50-override-medium($split: true);
     }
   }
 
@@ -478,6 +585,8 @@
       @media (min-width: $threshold-4-med-12-col) {
         @include vf-grid-column($col-25);
       }
+
+      @include vf-common-grid-25-25-25-25-override-medium($split: true);
     }
   }
 }

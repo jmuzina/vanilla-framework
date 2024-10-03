@@ -105,17 +105,6 @@
     @extend %vf-row-large;
   }
 
-  %vf-row-default-common-pattern {
-    @extend %vf-row-default;
-    @supports (display: grid) {
-      @media ($threshold-4-small-4-med-col <= width < $threshold-6-12-col) {
-        & > .col > .#{$grid-row-class} {
-          --vf-grid-columns: #{$grid-columns-medium-4};
-        }
-      }
-    }
-  }
-
   %vf-grid-container-padding {
     // set static outside padding per breakpoint
     padding-left: map-get($grid-margin-widths, small);
