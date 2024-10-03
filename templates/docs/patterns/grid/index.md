@@ -5,11 +5,11 @@ context:
 ---
 
 ## Structure
+
 ### Default grid
 
-The default grid uses the `.p-row` class. There are a multiple of 4 columns on every breakpoint. 
+The default grid uses the `.p-row` class. There are a multiple of 4 columns on every breakpoint.
 It has the following columns and gutters:
-
 
 <table>
   <thead>
@@ -55,9 +55,8 @@ It has the following columns and gutters:
   </div>
 </div>
 
-The legacy grid uses the `.row` class. It behaves nearly the same as the [default grid](#default-grid), 
+The legacy grid uses the `.row` class. It behaves nearly the same as the [default grid](#default-grid),
 but it has 6 columns on medium screens instead of 4. It has the following columns and gutters:
-
 
 <table>
   <thead>

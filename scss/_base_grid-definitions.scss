@@ -93,7 +93,11 @@
     @extend %vf-row-large;
   }
 
-  %vf-row-medium-4 {
+  %vf-row-legacy {
+    @extend %vf-row;
+  }
+
+  %vf-row-default {
     @extend %vf-row-base;
     @extend %vf-row-small;
     @extend %vf-row-medium-4;
