@@ -8,12 +8,13 @@
 // Apply grid properties for a given breakpoint
 @mixin vf-b-grid-template-impl($breakpoint, $columns) {
   grid-gap: 0 map-get($grid-gutter-widths, $breakpoint);
-  grid-template-columns: repeat($columns, minmax(0, 1fr));
   // Expose the number of columns available for child elements as a CSS var, so that columns can span full grid width without increasing selector specificity\
   --vf-grid-columns: #{$columns};
 
+  grid-template-columns: repeat(var(--vf-grid-columns), minmax(0, 1fr));
+
   & > * {
-    grid-column-end: span $columns;
+    grid-column-end: span var(--vf-grid-columns);
   }
 }
 
@@ -93,11 +94,26 @@
     @extend %vf-row-large;
   }
 
-  %vf-row-medium-4 {
+  %vf-row-legacy {
+    @extend %vf-row;
+  }
+
+  %vf-row-default {
     @extend %vf-row-base;
     @extend %vf-row-small;
     @extend %vf-row-medium-4;
     @extend %vf-row-large;
+  }
+
+  %vf-row-default-common-pattern {
+    @extend %vf-row-default;
+    @supports (display: grid) {
+      @media ($threshold-4-small-4-med-col <= width < $threshold-6-12-col) {
+        & > .col > .#{$grid-row-class} {
+          --vf-grid-columns: #{$grid-columns-medium-4};
+        }
+      }
+    }
   }
 
   %vf-grid-container-padding {
