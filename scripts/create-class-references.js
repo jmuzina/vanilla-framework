@@ -46,7 +46,7 @@ if (Object.keys(classReferences).length > 0) {
   const parsedYaml = yaml.stringify({
     'class-references': classReferences,
   });
-  fs.writeFile('build/classreferences.yaml', parsedYaml, function (err) {
+  fs.writeFile('templates/static/build/classreferences.yaml', parsedYaml, function (err) {
     if (err) throw err;
   });
 }

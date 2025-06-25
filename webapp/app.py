@@ -23,7 +23,7 @@ from canonicalwebteam import image_template
 with open("package.json") as package_json:
     VANILLA_VERSION = json.load(package_json)["version"]
 
-with open("build/classreferences.yaml") as data_yaml:
+with open("templates/static/build/classreferences.yaml") as data_yaml:
     CLASS_REFERENCES = yaml.load(data_yaml, Loader=yaml.FullLoader)
 
 with open("releases.yml") as releases_file:
