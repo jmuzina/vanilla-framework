@@ -224,6 +224,8 @@ You should now be able to access the site at `http://vanilla.local`.
 
 ---
 
+# this is a test change to trigger charm pack
+
 ## Additional Resources
 
 - [Rockcraft Documentation](https://documentation.ubuntu.com/rockcraft)
