@@ -3,7 +3,7 @@
 @mixin vf-l-fluid-breakout(
   $l-fluid-breakout-aside-width: $l-fluid-breakout-aside-width,
   $l-fluid-breakout-main-child-width: $l-fluid-breakout-main-child-width,
-  $grid-gap: $sp-unit * 2,
+  $grid-gap: calc(#{$sp-unit} * 2),
   $suffix: ''
 ) {
   .l-fluid-breakout#{$suffix} {

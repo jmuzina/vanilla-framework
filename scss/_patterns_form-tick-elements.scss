@@ -162,7 +162,7 @@
   .p-radio {
     display: block;
     padding-left: $sph--large + $form-tick-box-size;
-    text-indent: -1 * ($sph--large + $form-tick-box-size);
+    text-indent: calc(-1 * (#{$sph--large} + #{$form-tick-box-size}));
 
     &.is-required {
       &::before {

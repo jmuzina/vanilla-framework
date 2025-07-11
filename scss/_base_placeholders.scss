@@ -114,8 +114,8 @@
   }
 
   %section-padding--default {
-    padding-bottom: $spv--strip-regular * 0.5;
-    padding-top: $spv--strip-regular * 0.5;
+    padding-bottom: calc(#{$spv--strip-regular} * 0.5);
+    padding-top: calc(#{$spv--strip-regular} * 0.5);
 
     @media (min-width: $breakpoint-large) {
       padding-bottom: $spv--strip-regular;
@@ -124,7 +124,7 @@
   }
 
   %section-padding--deep {
-    padding: $spv--strip-deep * 0.5 0 $spv--strip-deep * 0.5;
+    padding: calc(#{$spv--strip-deep} * 0.5) 0 calc(#{$spv--strip-deep} * 0.5);
 
     @media (min-width: $breakpoint-large) {
       padding: $spv--strip-deep 0;

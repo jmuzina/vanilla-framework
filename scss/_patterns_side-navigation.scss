@@ -219,7 +219,7 @@
       $button-active-background-color: $colors--theme--background-active,
       $button-active-border-color: $color-transparent
     );
-    margin-bottom: $sp-unit * 2 - $spv-nudge * 2;
+    margin-bottom: calc(#{$sp-unit} * 2 - #{$spv-nudge} * 2);
 
     &::before {
       @include vf-icon-chevron-themed;
@@ -285,7 +285,7 @@
       @include vf-side-navigation-spacing-left($prop: left);
 
       background: $colors--theme--border-low-contrast;
-      bottom: -0.5 * $spv--x-large; // place border in the middle of the margin
+      bottom: calc(-0.5 * #{$spv--x-large}); // place border in the middle of the margin
     }
 
     .p-side-navigation--icons &::after {
@@ -459,7 +459,7 @@
   .p-side-navigation__accordion-button {
     // offset for accordion chevrons is icon size + twice spacing around it
     // we don't use grid width spacing for accordion (as we do in icon version)
-    $sp-sidenav--accordion-offset: $sp-sidenav--icon-width + 2 * $sph--large;
+    $sp-sidenav--accordion-offset: calc(#{$sp-sidenav--icon-width} + 2 * #{$sph--large});
     @extend %side-navigation__text;
 
     .p-side-navigation--icons & {
@@ -650,9 +650,9 @@
   // offset to use for additional spacing (for icons)
   $offset: 0
 ) {
-  #{$prop}: $multiplier * map-get($grid-margin-widths, small) + $offset;
+  #{$prop}: calc(#{$multiplier} * #{map-get($grid-margin-widths, small)} + #{$offset});
 
   @media (min-width: $threshold-4-6-col) {
-    #{$prop}: $multiplier * map-get($grid-margin-widths, default) + $offset;
+    #{$prop}: calc(#{$multiplier} * #{map-get($grid-margin-widths, default)} + #{$offset});
   }
 }

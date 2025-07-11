@@ -15,13 +15,13 @@ $grid-medium-col-prefix: '#{$grid-column-prefix}medium-' !default;
 $grid-large-col-prefix: #{$grid-column-prefix} !default;
 
 $grid-gutter-widths: (
-  small: $sp-unit * 3,
-  default: $sp-unit * 4,
+  small: calc(var(--sp-unit) * 3),
+  default: calc(var(--sp-unit) * 4),
 ) !default;
 
 $grid-margin-widths: (
-  small: $sp-unit * 2,
-  default: $sp-unit * 3,
+  small: calc(var(--sp-unit) * 2),
+  default: calc(var(--sp-unit) * 3),
 ) !default;
 
 // Grid breakout template

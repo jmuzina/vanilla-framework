@@ -24,7 +24,7 @@
       @media (min-width: $breakpoint-x-large) {
         font-size: map-get($base-font-sizes, large);
         //the rem value is not affected by the change in font-size; it needs to be multiplied by the ratio new font-size/default font-size
-        line-height: map-get($line-heights, default-text) * $font-size-ratio--largescreen;
+        line-height: calc(#{map-get($line-heights, default-text)} * #{$font-size-ratio--largescreen});
       }
     } @else {
       font-size: map-get($base-font-sizes, base);
@@ -71,7 +71,7 @@
     @extend %small-text;
 
     &.dense {
-      margin-bottom: map-get($sp-after, small--dense) + map-get($line-heights, default-text) - map-get($line-heights, small) - map-get($nudges, small);
+      margin-bottom: calc(#{map-get($sp-after, small--dense)} + #{map-get($line-heights, default-text)} - #{map-get($line-heights, small)} - #{map-get($nudges, small)});
     }
   }
 

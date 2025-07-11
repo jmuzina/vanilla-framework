@@ -1,6 +1,6 @@
 @use 'sass:color';
 @import 'settings';
-$knob-size: $sp-unit * 2;
+$knob-size: calc(#{$sp-unit} * 2);
 
 @mixin vf-p-switch {
   .p-switch {
@@ -42,7 +42,7 @@ $knob-size: $sp-unit * 2;
     height: $knob-size;
     margin: 0;
     position: relative;
-    width: $knob-size * 2;
+    width: calc(#{$knob-size} * 2);
 
     &::before {
       @include vf-transition($duration: slow);

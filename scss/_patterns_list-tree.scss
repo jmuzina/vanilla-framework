@@ -80,7 +80,7 @@
     background: transparent;
     border: 0;
     font-weight: normal;
-    margin: 0 0 0 (-$list-tree-item-indent-size);
+    margin: 0 0 0 calc(-1 * #{$list-tree-item-indent-size});
     padding: 0 $sph--small 0 $list-tree-item-indent-size;
     transition-duration: 0s;
 

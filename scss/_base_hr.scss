@@ -2,7 +2,7 @@
 
 %fixed-width-hr {
   @mixin adjusted-width($size) {
-    $gutters-sizes: 2 * map-get($grid-margin-widths, $size);
+    $gutters-sizes: calc(2 * map-get($grid-margin-widths, $size));
 
     max-width: calc($grid-max-width - $gutters-sizes);
     width: calc(100% - $gutters-sizes);

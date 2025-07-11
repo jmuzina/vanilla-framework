@@ -38,7 +38,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
     border: 0;
     color: $colors--theme--text-default;
     display: none;
-    left: -2 * $triangle-height;
+    left: calc(-2 * #{$triangle-height});
     margin-bottom: 0;
     padding: $spv--small $sph--large;
     position: absolute;
@@ -93,11 +93,11 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
     &::after {
       border-radius: 10% 90% 0% 100% / $tooltip-overlay-bottom-border-radius;
       content: '';
-      height: 2 * $triangle-height;
+      height: calc(2 * #{$triangle-height});
       left: 0;
       position: absolute;
       right: 0;
-      top: -2 * $triangle-height;
+      top: calc(-2 * #{$triangle-height});
     }
   }
 
@@ -122,7 +122,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
       // hover overlay
       &::after {
         border-radius: 50% 50% 0% 100% / $tooltip-overlay-bottom-border-radius;
-        height: 2 * $triangle-height;
+        height: calc(2 * #{$triangle-height});
       }
     }
   }
@@ -134,7 +134,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
     .p-tooltip__message {
       bottom: inherit;
       left: initial;
-      right: -2 * $triangle-height;
+      right: calc(-2 * #{$triangle-height});
       top: 100%;
       -webkit-transform: translateY(13px); // stylelint-disable-line property-no-vendor-prefix
       transform: translateY(13px);
@@ -148,7 +148,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
       // hover overlay
       &::after {
         border-radius: 90% 10% 0% 100% / $tooltip-overlay-bottom-border-radius;
-        height: 2 * $triangle-height;
+        height: calc(2 * #{$triangle-height});
       }
     }
   }
@@ -159,7 +159,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
 
     .p-tooltip__message {
       bottom: 100%;
-      left: -2 * $triangle-height;
+      left: calc(-2 * #{$triangle-height});
       top: initial;
       -webkit-transform: translateX(0%) translateY(-13px); // stylelint-disable-line property-no-vendor-prefix
       transform: translateX(0%) translateY(-13px);
@@ -173,15 +173,15 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
           top: $triangle-height solid $colors--theme--background-alt;
         }
 
-        bottom: -2 * $triangle-height;
+        bottom: calc(-2 * #{$triangle-height});
         left: $sph--large;
       }
 
       // hover overlay
       &::after {
         border-radius: 0% 100% 90% 10% / $tooltip-overlay-top-border-radius;
-        bottom: -2 * $triangle-height;
-        height: 2 * $triangle-height;
+        bottom: calc(-2 * #{$triangle-height});
+        height: calc(2 * #{$triangle-height});
         top: auto;
       }
     }
@@ -207,7 +207,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
           top: $triangle-height solid $colors--theme--background-alt;
         }
 
-        bottom: -2 * $triangle-height;
+        bottom: calc(-2 * #{$triangle-height});
         left: 50%;
         -webkit-transform: translateX(-50%); // stylelint-disable-line property-no-vendor-prefix
         transform: translateX(-50%);
@@ -216,8 +216,8 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
       // hover overlay
       &::after {
         border-radius: 100% 0% 50% 50% / $tooltip-overlay-top-border-radius;
-        bottom: -2 * $triangle-height;
-        height: 2 * $triangle-height;
+        bottom: calc(-2 * #{$triangle-height});
+        height: calc(2 * #{$triangle-height});
         top: auto;
       }
     }
@@ -230,7 +230,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
     .p-tooltip__message {
       bottom: 100%;
       left: initial;
-      right: -2 * $triangle-height;
+      right: calc(-2 * #{$triangle-height});
       top: initial;
       -webkit-transform: translateX(0%) translateY(-13px); // stylelint-disable-line property-no-vendor-prefix
       transform: translateX(0%) translateY(-13px);
@@ -244,7 +244,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
           top: $triangle-height solid $colors--theme--background-alt;
         }
 
-        bottom: -2 * $triangle-height;
+        bottom: calc(-2 * #{$triangle-height});
         left: initial;
         right: $sph--large;
       }
@@ -252,8 +252,8 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
       // hover overlay
       &::after {
         border-radius: 100% 0% 10% 90% / $tooltip-overlay-top-border-radius;
-        bottom: -2 * $triangle-height;
-        height: 2 * $triangle-height;
+        bottom: calc(-2 * #{$triangle-height});
+        height: calc(2 * #{$triangle-height});
         top: auto;
       }
     }
@@ -291,10 +291,10 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
         border-radius: 0;
         bottom: 0;
         height: auto;
-        left: -2 * $triangle-height;
+        left: calc(-2 * #{$triangle-height});
         right: auto;
         top: 0;
-        width: 2 * $triangle-height;
+        width: calc(2 * #{$triangle-height});
       }
     }
   }
@@ -305,7 +305,7 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
 
     .p-tooltip__message {
       bottom: inherit;
-      left: -16px;
+      left: calc(-2 * #{$triangle-height});
       top: 50%;
       -webkit-transform: translateX(-100%) translateY(-50%); // stylelint-disable-line property-no-vendor-prefix
       transform: translateX(-100%) translateY(-50%);
@@ -332,9 +332,9 @@ $tooltip-overlay-top-border-radius: 0% 0% 100% 100%;
         bottom: 0;
         height: auto;
         left: auto;
-        right: -2 * $triangle-height;
+        right: calc(-2 * #{$triangle-height});
         top: 0;
-        width: 2 * $triangle-height;
+        width: calc(2 * #{$triangle-height});
       }
     }
   }

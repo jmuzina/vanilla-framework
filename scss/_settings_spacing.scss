@@ -2,77 +2,77 @@
 
 // Typographic scale settings
 $ms-ratio: math.div(16, 14) !default;
-$sp-unit-ratio: 0.5 !default;
+$sp-unit-ratio: var(--sp-unit-ratio) !default;
 
 // Baseline grid settings
-$sp-unit: 1rem * $sp-unit-ratio !default;
+$sp-unit: var(--sp-unit) !default;
 
 $font-sizes: (
-  display: 5,
-  display-mobile: 4,
-  h1: 2.5,
-  h1-mobile: 2,
-  h2: 2.5,
-  h2-mobile: 2,
-  h3: 1.5,
-  h3-mobile: 1.5,
-  h4: 1.5,
-  h4-mobile: 1.5,
-  h5: 1,
-  h5-mobile: 1,
-  h6: 1,
-  h6-mobile: 1,
-  default: 1,
-  small: 0.875,
-  x-small: 0.75,
+  display: var(--font-size-display),
+  display-mobile: var(--font-size-display-mobile),
+  h1: var(--font-size-h1),
+  h1-mobile: var(--font-size-h1-mobile),
+  h2: var(--font-size-h2),
+  h2-mobile: var(--font-size-h2-mobile),
+  h3: var(--font-size-h3),
+  h3-mobile: var(--font-size-h3-mobile),
+  h4: var(--font-size-h4),
+  h4-mobile: var(--font-size-h4-mobile),
+  h5: var(--font-size-h5),
+  h5-mobile: var(--font-size-h5-mobile),
+  h6: var(--font-size-h6),
+  h6-mobile: var(--font-size-h6-mobile),
+  default: var(--font-size-default),
+  small: var(--font-size-small),
+  x-small: var(--font-size-x-small),
 ) !default;
 
 $line-heights: (
-  display: 11 * $sp-unit,
-  display-mobile: 9 * $sp-unit,
-  h1: 6 * $sp-unit,
-  h1-mobile: 5 * $sp-unit,
-  h2: 6 * $sp-unit,
-  h2-mobile: 5 * $sp-unit,
-  h3: 4 * $sp-unit,
-  h3-mobile: 4 * $sp-unit,
-  h4: 4 * $sp-unit,
-  h4-mobile: 4 * $sp-unit,
-  h5: 3 * $sp-unit,
-  h5-mobile: 3 * $sp-unit,
-  h6: 3 * $sp-unit,
-  h6-mobile: 3 * $sp-unit,
-  default-text: 3 * $sp-unit,
-  small: 2.5 * $sp-unit,
-  x-small: 2 * $sp-unit,
+  display: var(--line-height-display),
+  display-mobile: var(--line-height-display-mobile),
+  h1: var(--line-height-h1),
+  h1-mobile: var(--line-height-h1-mobile),
+  h2: var(--line-height-h2),
+  h2-mobile: var(--line-height-h2-mobile),
+  h3: var(--line-height-h3),
+  h3-mobile: var(--line-height-h3-mobile),
+  h4: var(--line-height-h4),
+  h4-mobile: var(--line-height-h4-mobile),
+  h5: var(--line-height-h5),
+  h5-mobile: var(--line-height-h5-mobile),
+  h6: var(--line-height-h6),
+  h6-mobile: var(--line-height-h6-mobile),
+  default-text: var(--line-height-default-text),
+  small: var(--line-height-small),
+  x-small: var(--line-height-x-small),
 ) !default;
 
 // baseline nudges for type scale ratio of (16/14)^2
 $nudges: (
-  display: 0.35rem,
-  display-mobile: 0.25rem,
-  h1-large: 0.55rem,
-  h1-mobile: 0.55rem,
-  h1: 0.55rem,
-  h2: 0.55rem,
-  h2-mobile: 0.55rem,
-  h2-large: 0.55rem,
-  h3: 0.45rem,
-  h3-mobile: 0.45rem,
-  h3-large: 0.45rem,
-  h4-large: 0.45rem,
-  h4: 0.45rem,
-  h4-mobile: 0.45rem,
-  h5: 0.375rem,
-  h5-large: 0.375rem,
-  h5-mobile: 0.375rem,
-  h6: 0.375rem,
-  h6-mobile: 0.375rem,
-  h6-large: 0.375rem,
-  p: 0.375rem,
-  p-ubuntumono: 0.45rem,
-  small: 0.05rem,
-  x-small: 0.25rem,
+  display: var(--nudge-display),
+  display-mobile: var(--nudge-display-mobile),
+  h1-large: var(--nudge-h1-large),
+  h1-mobile: var(--nudge-h1-mobile),
+  h1: var(--nudge-h1),
+  h2: var(--nudge-h2),
+  h2-mobile: var(--nudge-h2-mobile),
+  h2-large: var(--nudge-h2-large),
+  h3: var(--nudge-h3),
+  h3-mobile: var(--nudge-h3-mobile),
+  h3-large: var(--nudge-h3-large),
+  h4-large: var(--nudge-h4-large),
+  h4: var(--nudge-h4),
+  h4-mobile: var(--nudge-h4-mobile),
+  h5: var(--nudge-h5),
+  h5-large: var(--nudge-h5-large),
+  h5-mobile: var(--nudge-h5-mobile),
+  h6: var(--nudge-h6),
+  h6-mobile: var(--nudge-h6-mobile),
+  h6-large: var(--nudge-h6-large),
+  p: var(--nudge-p),
+  p-ubuntumono: var(--nudge-p-ubuntumono),
+  small: var(--nudge-small),
+  x-small: var(--nudge-x-small),
 ) !default;
 
 // Correct baseline drift due to browser rounding. (Visible in text > 1000 lines)
@@ -92,43 +92,43 @@ $browser-rounding-compensations: (
 
 // Main spacing variables. spv stands spacing-vertical; sph stands for spacing-horizontal.
 
-$spv--x-small: $sp-unit * 0.5 !default;
-$spv--small: $sp-unit !default;
-$spv--medium: $sp-unit * 1.5 !default;
-$spv--large: $sp-unit * 2;
-$spv--x-large: $sp-unit * 3 !default;
-$spv--strip-shallow: $sp-unit * 3 !default;
-$spv--strip-regular: $sp-unit * 8 !default;
-$spv--strip-deep: $sp-unit * 16 !default;
+$spv--x-small: var(--spv-x-small) !default;
+$spv--small: var(--spv-small) !default;
+$spv--medium: var(--spv-medium) !default;
+$spv--large: var(--spv-large) !default;
+$spv--x-large: var(--spv-x-large) !default;
+$spv--strip-shallow: var(--spv-strip-shallow) !default;
+$spv--strip-regular: var(--spv-strip-regular) !default;
+$spv--strip-deep: var(--spv-strip-deep) !default;
 
-$sph--x-small: $sp-unit * 0.5 !default; // to be used in place of an inline space between characters/words
-$sph--small: $sp-unit !default;
-$sph--large: $sp-unit * 2 !default;
-$sph--x-large: $sp-unit * 3 !default;
+$sph--x-small: var(--sph-x-small) !default; // to be used in place of an inline space between characters/words
+$sph--small: var(--sph-small) !default;
+$sph--large: var(--sph-large) !default;
+$sph--x-large: var(--sph-x-large) !default;
 
 // Space after text elements
 $sp-after: (
-  display: $spv--x-large,
-  display-mobile: $spv--x-large,
-  h1: $spv--x-large,
-  h1-mobile: $spv--x-large,
-  h2: $spv--x-large,
-  h2-mobile: $spv--x-large,
-  h3: $spv--x-large,
-  h3-mobile: $spv--x-large,
-  h4: $spv--x-large,
-  h4-mobile: $spv--x-large,
-  h5: $spv--x-large,
-  h5-mobile: $spv--x-large,
-  h6: $spv--x-large,
-  h6-mobile: $spv--x-large,
-  p: $spv--x-large,
-  p-small-caps: $spv--large,
-  p-dense: $spv--large,
-  default-text: $sp-unit,
-  small: $spv--large,
-  small--dense: $spv--large,
-  x-small: $spv--large,
+  display: var(--sp-after-display),
+  display-mobile: var(--sp-after-display-mobile),
+  h1: var(--sp-after-h1),
+  h1-mobile: var(--sp-after-h1-mobile),
+  h2: var(--sp-after-h2),
+  h2-mobile: var(--sp-after-h2-mobile),
+  h3: var(--sp-after-h3),
+  h3-mobile: var(--sp-after-h3-mobile),
+  h4: var(--sp-after-h4),
+  h4-mobile: var(--sp-after-h4-mobile),
+  h5: var(--sp-after-h5),
+  h5-mobile: var(--sp-after-h5-mobile),
+  h6: var(--sp-after-h6),
+  h6-mobile: var(--sp-after-h6-mobile),
+  p: var(--sp-after-p),
+  p-small-caps: var(--sp-after-p-small-caps),
+  p-dense: var(--sp-after-p-dense),
+  default-text: var(--sp-after-default-text),
+  small: var(--sp-after-small),
+  small--dense: var(--sp-after-small-dense),
+  x-small: var(--sp-after-x-small),
 ) !default;
 
 // commonly occuring calculations available as variables
@@ -136,9 +136,9 @@ $spv-nudge: map-get($nudges, p) !default; // top: nudge; bottom: unit - nudge; r
 $spv-nudge-compensation: $sp-unit - $spv-nudge !default;
 
 // form input spacing variables
-$input-margin-bottom: $sp-unit * 4 - $spv-nudge * 2;
+$input-margin-bottom: calc(var(--sp-unit) * 4 - var(--nudge-p) * 2);
 $input-border-thickness: 1.5px;
-$input-vertical-padding: calc($spv-nudge - $input-border-thickness);
+$input-vertical-padding: calc(var(--nudge-p) - $input-border-thickness);
 
 // tick element variables
 $form-tick-box-size: 1rem;
@@ -148,30 +148,31 @@ $form-tick-box-nudge: 0.15rem; // to nudge the tick box a bit below baseline (to
 $form-radio-inner-circle-diameter: 0.375rem;
 $form-radio-circle-offset: 0.5 * ($form-tick-box-size - $form-radio-inner-circle-diameter);
 
-$text-max-width: 40em !default;
+$text-max-width: var(--text-max-width) !default;
 
 $icon-sizes: (
-  small: $sp-unit * 1.5,
-  default: $sp-unit * 2,
-  heading-icon--x-small: $sp-unit * 3,
-  heading-icon--small: $sp-unit * 4,
-  heading-icon: $sp-unit * 5,
-  thumb: $sp-unit * 6,
-  thumb--large: $sp-unit * 12,
+  small: calc(var(--sp-unit) * 1.5),
+  default: calc(var(--sp-unit) * 2),
+  heading-icon--x-small: calc(var(--sp-unit) * 3),
+  heading-icon--small: calc(var(--sp-unit) * 4),
+  heading-icon: calc(var(--sp-unit) * 5),
+  thumb: calc(var(--sp-unit) * 6),
+  thumb--large: calc(var(--sp-unit) * 12),
 ) !default;
 
 $default-icon-size: map-get($icon-sizes, default);
 
-$table-cell-vertical-padding: $spv--small;
+$table-cell-vertical-padding: var(--table-cell-vertical-padding) !default;
 
 // generic units
-$sp-xx-small: $sp-unit * 0.25 !default;
-$sp-x-small: $sp-unit * 0.5 !default;
-$sp-small: $sp-unit !default;
-$sp-medium: $sp-unit * 2 !default;
-$sp-large: $sp-unit * 3 !default;
-$sp-x-large: $sp-unit * 4 !default;
-$sp-xx-large: $sp-unit * 5 !default;
-$sp-xxx-large: $sp-unit * 6 !default;
-$sp-xxxx-large: $sp-unit * 8 !default;
-$sp-xxxxx-large: $sp-unit * 12 !default; // anythng this large should be expressed as a sum of constituent heights. This is not currently used AFAIK  , consider removing for 3.0
+// TODO once CSS is the source of truth, we shouldn't need to use calc() here, we can just directly consume the vars from css. Otherwise the math is duplicated.
+$sp-xx-small: calc(var(--sp-unit) * 0.25) !default;
+$sp-x-small: calc(var(--sp-unit) * 0.5) !default;
+$sp-small: var(--sp-unit) !default;
+$sp-medium: calc(var(--sp-unit) * 2) !default;
+$sp-large: calc(var(--sp-unit) * 3) !default;
+$sp-x-large: calc(var(--sp-unit) * 4) !default;
+$sp-xx-large: calc(var(--sp-unit) * 5) !default;
+$sp-xxx-large: calc(var(--sp-unit) * 6) !default;
+$sp-xxxx-large: calc(var(--sp-unit) * 8) !default;
+$sp-xxxxx-large: calc(var(--sp-unit) * 12) !default; // anything this large should be expressed as a sum of constituent heights. This is not currently used AFAIK  , consider removing for 3.0

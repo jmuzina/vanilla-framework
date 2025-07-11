@@ -10,7 +10,7 @@
     // Space chip away from the content preceding it in the chip body
     margin-left: $sph--x-small;
     @media (min-width: $breakpoint-x-large) {
-      background-size: math.div(map-get($icon-sizes, small), $font-size-ratio--largescreen); //ensure no rounding happens as it positions the icon off center
+      background-size: calc(#{map-get($icon-sizes, small)} / #{$font-size-ratio--largescreen}); //ensure no rounding happens as it positions the icon off center
     }
   }
 

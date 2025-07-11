@@ -8,7 +8,8 @@ $navigation-logo-size: 1rem;
 $navigation-logo-padding: calc(1.5rem + 0.1rem); // ~25.6px to align better with logos as originally designed in SVG
 $sph-navigation-link: 0.3rem;
 $spv-navigation-logo-bottom-position: 0.25rem; // 4px when 1rem is 16px
-$navigation-height: calc(map-get($line-heights, default-text) + 2 * $spv--large); // navigation bar height based on line height and paddings
+$navigation-height: calc(#{map-get($line-heights, default-text)} + 2 * #{$spv--large}); // navigation bar height based on line height and paddings
+$input-gap-top: calc(#{$spv--large} - #{$spv-nudge});
 
 @mixin vf-p-navigation {
   // placeholders
@@ -170,8 +171,6 @@ $navigation-height: calc(map-get($line-heights, default-text) + 2 * $spv--large)
 
       @media (min-width: $breakpoint-navigation-threshold) {
         // align baselines of menu items and input text
-        $input-gap-top: $spv--large - $spv-nudge;
-
         display: flex;
         flex: 1 1 auto;
         margin: $input-gap-top 0 auto auto;
@@ -690,7 +689,7 @@ $navigation-height: calc(map-get($line-heights, default-text) + 2 * $spv--large)
     @media (min-width: $breakpoint-navigation-threshold) {
       position: absolute;
       // padding applied to .p-navigation__link + line-heigh of the anchor text inside
-      top: $spv--large * 2 + map-get($line-heights, default-text);
+      top: calc(#{$spv--large} * 2 + #{map-get($line-heights, default-text)});
     }
 
     @media (width < $breakpoint-navigation-threshold) {

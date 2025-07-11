@@ -55,7 +55,7 @@
     &.is-small {
       font-size: #{map-get($font-sizes, small)}rem;
       line-height: map-get($line-heights, small);
-      margin-bottom: $input-margin-bottom - $sp-unit;
+      margin-bottom: calc(#{$input-margin-bottom} - #{$sp-unit});
       padding: calc(map-get($nudges, small) - $input-border-thickness) $sph--small;
     }
 

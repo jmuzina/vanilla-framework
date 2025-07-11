@@ -14,7 +14,7 @@
   // this is the total width occupied by the search input clear button:
   // the buttons left and right padding, plus the width of the icon,
   // and finally the width of the focus outline defined above
-  $search-filter-actions-width: 2 * $sph--small + map-get($icon-sizes, default) + $focus-outline-offset;
+  $search-filter-actions-width: calc(2 * #{$sph--small} + #{map-get($icon-sizes, default)} + #{$focus-outline-offset});
 
   // When the search and filter is not expanded, but is overflowing with chips, we need to
   // specify a height that matches that of a standard input element. This height is a combination
@@ -145,7 +145,7 @@
       flex-grow: 1;
       margin-bottom: 0;
       margin-left: -$sph--small; // compensate for the left padding of the container
-      margin-right: -$search-filter-actions-width; // compensate for the space reserved for counter
+      margin-right: calc(-1 * #{$search-filter-actions-width}); // compensate for the space reserved for counter
       min-width: 6rem;
       position: relative;
 

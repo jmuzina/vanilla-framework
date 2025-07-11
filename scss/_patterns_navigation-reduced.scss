@@ -1,7 +1,7 @@
 @mixin vf-p-navigation-reduced {
   .p-navigation--reduced {
     // height of reduced navigation calculated from line height and padding
-    $reduced-nav-height: calc(map-get($line-heights, x-small) + 2 * $spv--small);
+    $reduced-nav-height: calc(#{map-get($line-heights, x-small)} + 2 * #{$spv--small});
 
     background-color: $colors--theme--background-alt;
     position: relative;
