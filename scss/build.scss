@@ -1,3 +1,143 @@
 // import required files
 @import 'vanilla';
 @include vanilla;
+
+.view-transitions-demo {
+  margin: 2rem 0;
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  .demo-views-container {
+    position: relative;
+    min-height: 400px;
+  }
+
+  .demo-view {
+    position: relative;
+    width: 100%;
+
+    &[style*='display: none'] {
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .list-view {
+    .demo-items-container {
+      .p-card {
+        margin-bottom: 1rem;
+
+        .p-media-object__image {
+          font-size: 2rem;
+          margin-right: 1rem;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+
+  .grid-view {
+    .grid-row {
+      .grid-col-4 {
+        .p-card--highlighted {
+          height: 100%;
+
+          .p-media-object__image {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+          }
+
+          .p-media-object__details {
+            h5 {
+              margin: 0 0 1rem 0;
+              font-size: 1.25rem;
+            }
+
+            p {
+              margin: 0 0 1.5rem 0;
+              line-height: 1.6;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .detail-view {
+    .p-card {
+      .p-media-object__image {
+        font-size: 4rem;
+        margin-right: 1.5rem;
+      }
+
+      .p-media-object__details {
+        h5 {
+          margin: 0 0 0.5rem 0;
+          font-size: 1.5rem;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+
+      .p-section {
+        margin-bottom: 2rem;
+
+        h6 {
+          margin: 0 0 1rem 0;
+          font-size: 1.1rem;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+
+        p {
+          line-height: 1.6;
+          margin: 0;
+        }
+
+        .p-progress-bar {
+          width: 100%;
+          height: 8px;
+          background: #e9ecef;
+          border-radius: 4px;
+          overflow: hidden;
+          margin-bottom: 0.5rem;
+
+          .p-progress-bar__filler {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #20c997);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+          }
+        }
+
+        .p-chip {
+          margin-right: 0.5rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .form-view {
+    .p-form {
+      .p-form__group {
+        margin-bottom: 1.5rem;
+      }
+
+      .grid-row {
+        .grid-col-4 {
+          .p-form__group {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

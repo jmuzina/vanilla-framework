@@ -84,7 +84,7 @@
             {% block content_title %}
 
               {% if title %}
-                <h1>{{ title.split('|')[0] }}</h1>
+                <h1 id="title">{{ title.split('|')[0] }}</h1>
               {% endif %}
 
               {% include "_layouts/_component_tabs.html" %}
@@ -110,7 +110,7 @@
       {# table of contents placeholder, to be filled by JS based on headings #}
       <div class="l-docs__meta u-hide">
         <div class="l-docs__sticky-container p-strip is-shallow">
-          <aside class="p-table-of-contents">
+          <aside class="p-table-of-contents" style="view-transition-name: table-of-contents">
             <div class="p-table-of-contents__section">
               <h4 class="p-table-of-contents__header">On this page:</h4>
               <nav class="p-table-of-contents__nav" aria-label="Table of contents" id="toc">
@@ -132,4 +132,5 @@
     <script defer src="{{ versioned_static('build/js/modules/beautify-css.js') }}"></script>
     <script defer src="{{ versioned_static('js/prism.min.js') }}"></script>
     <script defer src="{{ versioned_static('js/example.js') }}"></script>
+    <script defer src="{{ versioned_static('js/view-transitions-demo.js') }}"></script>
 {% endblock %}

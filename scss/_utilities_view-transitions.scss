@@ -1,0 +1,108 @@
+// View Transition API utilities
+// Provides consistent view transition support across the framework
+
+@mixin vf-view-transitions {
+  @media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+      navigation: auto;
+    }
+  }
+}
+
+@mixin vf-view-transition-element($name) {
+  @media (prefers-reduced-motion: no-preference) {
+    view-transition-name: $name;
+  }
+}
+
+@mixin vf-view-transition-fade($duration: 0.3s) {
+  @media (prefers-reduced-motion: no-preference) {
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      animation-duration: $duration;
+      animation-timing-function: ease-in-out;
+    }
+  }
+}
+
+@mixin vf-view-transition-slide($direction: left, $duration: 0.4s) {
+  @media (prefers-reduced-motion: no-preference) {
+    @if $direction == left {
+      ::view-transition-old(root) {
+        animation: slide-out-left $duration ease-in;
+      }
+      ::view-transition-new(root) {
+        animation: slide-in-right $duration ease-out;
+      }
+    } @else if $direction == right {
+      ::view-transition-old(root) {
+        animation: slide-out-right $duration ease-in;
+      }
+      ::view-transition-new(root) {
+        animation: slide-in-left $duration ease-out;
+      }
+    }
+  }
+}
+
+// Keyframe animations for slide transitions
+@keyframes slide-out-left {
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-out-right {
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+// Common element transitions
+@mixin vf-view-transition-common-elements {
+  @media (prefers-reduced-motion: no-preference) {
+    // Images
+    .p-image-container__image {
+      @include vf-view-transition-element(image);
+    }
+
+    // Code blocks
+    pre,
+    code {
+      @include vf-view-transition-element(code-block);
+    }
+
+    // Pattern examples
+    .embedded-example {
+      @include vf-view-transition-element(example-content);
+    }
+
+    // Navigation elements
+    .p-navigation__link {
+      @include vf-view-transition-element(nav-link);
+    }
+
+    // Section headers
+    h1,
+    h2,
+    h3 {
+      @include vf-view-transition-element(heading);
+    }
+  }
+}
