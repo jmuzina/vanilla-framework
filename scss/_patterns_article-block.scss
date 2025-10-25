@@ -23,31 +23,27 @@
     // image, title, desc/excerpt, metadata
     grid-row: span 4;
     grid-template-rows: subgrid;
+
+    margin-bottom: $spv--small;
+
     // the section that wraps the items already has bottom padding defined, so the last row of items must have collapsed bottom margin to avoid duplicating spacing.
     // small screens - the last item gets collapsed bottom margin
     @media screen and (width < $threshold-4-small-4-med-col) {
       &:last-child {
-        .p-article-block__item:last-child *:last-child {
-          margin-bottom: #{$sp-unit - map-get($settings-text-p, nudge)};
-        }
+        margin-bottom: 0;
       }
     }
 
     // medium screens - the last two items get collapsed bottom margin
     @media screen and ($threshold-4-small-4-med-col <= width < $threshold-4-8-col) {
       &:nth-last-child(-n + 2) {
-        .p-article-block__item:last-child *:last-child {
-          margin-bottom: #{$sp-unit - map-get($settings-text-p, nudge)};
-        }
+        margin-bottom: 0;
       }
     }
 
     // large screen - all items get collapsed bottom margin
     @media screen and (width >= $threshold-4-8-col) {
-      // 4 items per row, only 4 items allowed - items have no margin at all
-      .p-article-block__item:last-child *:last-child {
-        margin-bottom: #{$sp-unit - map-get($settings-text-p, nudge)};
-      }
+      margin-bottom: 0;
     }
   }
 
@@ -55,28 +51,59 @@
     margin-bottom: $spv--small;
   }
 
-  .p-article-block__title,
-  .p-article-block__description,
-  .p-article-block__metadata {
+  .p-article-block__title {
     @extend %paragraph;
+    //margin-top: 0;
+    //font-size: #{map-get($settings-text-p, font-size)}rem;
+    //line-height: map-get($settings-text-p, line-height);
+    //margin-bottom: map-get($settings-text-p, sp-after) - map-get($settings-text-p, nudge);
+    //padding-top: map-get($settings-text-p, nudge);
   }
 
-  /** collapse padding and margin of block items that have no content */
-  .p-article-block__image,
-  .p-article-block__title,
-  .p-article-block__description,
-  .p-article-block__metadata {
-    &:empty,
-    /* metadata and image wrap around further items, so we need to check for presence of non-empty children */
-    &.p-article-block__metadata:not(:has(.p-article-block__metadata-item > *:not(:empty))),
-    .p-article-block__image:not(:has(> *:not(:empty))) {
-      &,
-      // *nothing* should have bottom margin or top padding if the item is empty.
-      * {
-        margin-bottom: 0;
-        padding-top: 0;
-      }
+  /**
+ Non-empty block items have paragraph spacing.
+ However, we need to avoid adding spacing to empty items (which we must always render in order to provide slots for dynamic rendering and to maintain subgrid alignment)
+ So, we use :has() queries to selectively apply paragraph spacing only to non-empty items.
+ :empty alone cannot be used because it doesn't match elements that contain only empty elements.
+
+ So, we carefully target the leaf elements that might actually contain content.
+
+ */
+  /* First, group all your "non-empty" checks into a single :has()
+    for clarity. This creates one selector for "non-empty-item".
+  */
+  .p-article-block__item:has(
+  .p-article-block__title:not(:empty),
+  .p-article-block__description:not(:empty),
+  .article-author:not(:empty),
+  .article-time:not(:empty)
+) {
+    /* Goal 1: Apply paragraph spacing to any non-empty item
+      that has another non-empty item after it.
+
+      The inner '&' here correctly refers to the full selector above.
+      This translates to: NON_EMPTY_ITEM:has(~ NON_EMPTY_ITEM)
+    */
+    &:has(~ &) {
+      @extend %paragraph;
     }
+
+    & * {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    /*
+      Goal 2: Adjust margin on the last child.
+      This rule is now separate from the sibling-matching logic.
+
+      This translates to: NON_EMPTY_ITEM:last-child *:last-child
+    */
+    //&:last-child *:last-child {
+    //  margin-bottom: #{$sp-unit - map-get($settings-text-p, nudge)};
+    //}
   }
 
   /*

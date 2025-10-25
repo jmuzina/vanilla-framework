@@ -17,7 +17,7 @@
     {%- endfor -%}
   >
     <h3
-      class="p-article-block__title article-title {{ title.get("class", "") }}"
+      class="p-article-block__title p-text--paragraph article-title {{ title.get("class", "") }}"
       {% for attr, value in title.items() -%}
         {%- if attr not in ["text", "link", "class"] -%}
           {{ attr }}="{{ value }}"
@@ -68,7 +68,7 @@
   {%- set date_text = date.get("text", "") | trim -%}
 
   <p class="p-article-block__metadata">
-    <small class="p-article-block__metadata-item u-no-margin--bottom">
+    <small class="p-article-block__metadata-item">
       <span class="article-author">
         {%- for author in authors -%}
           {%- set author_text = author.get("text", "") | trim -%}
@@ -86,7 +86,7 @@
         {%- endfor -%}
       </span>
     </small>
-    <small class="p-article-block__metadata-item u-no-margin--bottom">
+    <small class="p-article-block__metadata-item">
       <time
         datetime="{{ date_text }}"
         class="article-time {{ date_attrs.get("class", "") }}"

@@ -56,7 +56,7 @@
     @extend %vf-heading-6;
   }
 
-  p {
+  p, .p-text--paragraph {
     @extend %paragraph;
 
     max-width: $text-max-width;
