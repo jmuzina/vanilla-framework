@@ -51,7 +51,7 @@
     margin-bottom: $spv--small;
   }
 
-  .p-article-block__title {
+  .p-article-block__title:not(:empty) {
     @extend %paragraph;
     //margin-top: 0;
     //font-size: #{map-get($settings-text-p, font-size)}rem;
@@ -60,51 +60,26 @@
     //padding-top: map-get($settings-text-p, nudge);
   }
 
-  /**
- Non-empty block items have paragraph spacing.
- However, we need to avoid adding spacing to empty items (which we must always render in order to provide slots for dynamic rendering and to maintain subgrid alignment)
- So, we use :has() queries to selectively apply paragraph spacing only to non-empty items.
- :empty alone cannot be used because it doesn't match elements that contain only empty elements.
+  .p-article-block__description > p {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 
- So, we carefully target the leaf elements that might actually contain content.
-
- */
-  /* First, group all your "non-empty" checks into a single :has()
-    for clarity. This creates one selector for "non-empty-item".
-  */
-  .p-article-block__item:has(
-  .p-article-block__title:not(:empty),
-  .p-article-block__description:not(:empty),
-  .article-author:not(:empty),
-  .article-time:not(:empty)
-) {
-    /* Goal 1: Apply paragraph spacing to any non-empty item
-      that has another non-empty item after it.
-
-      The inner '&' here correctly refers to the full selector above.
-      This translates to: NON_EMPTY_ITEM:has(~ NON_EMPTY_ITEM)
-    */
-    &:has(~ &) {
-      @extend %paragraph;
-    }
+  .p-article-block__description:not(:empty), .p-article-block__description:has(> *:not(:empty)),
+  .p-article-block__metadata-item:has(> *:not(:empty)),
+  {
+    @extend %paragraph;
 
     & * {
-      margin-top: 0;
       margin-bottom: 0;
-      padding-top: 0;
+      margin-top: 0;
       padding-bottom: 0;
+      padding-top: 0;
     }
-
-    /*
-      Goal 2: Adjust margin on the last child.
-      This rule is now separate from the sibling-matching logic.
-
-      This translates to: NON_EMPTY_ITEM:last-child *:last-child
-    */
-    //&:last-child *:last-child {
-    //  margin-bottom: #{$sp-unit - map-get($settings-text-p, nudge)};
-    //}
   }
+
 
   /*
     Add a middot between non-empty metadata items
